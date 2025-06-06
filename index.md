@@ -1,12 +1,12 @@
-# Abstract
+# ABSTRACT
 
 In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically ChatGPT (OpenAI) and Gemini (Google). Our goal was to model and assess whether certain concepts (e.g., general information and knowledge, themes, soundtrack) are represented in the graph, and where necessary, propose new triples.
 
-## Header 2
+## PROJECT BY
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+> Alessia Gavelli
+> Elisa Mainardi
+> Gaia Pestelli 
 
 ### Header 3
 
