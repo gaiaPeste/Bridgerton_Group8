@@ -15,8 +15,10 @@ After having identified the entity we wanted to take into account, we decided to
 These were the results:
   
   ChatGPT
+<p><strong>Example Query from ChatGPT:</strong></p>
 
-![QUERY 1](https://i.imgur.com/5HuAiJ2.png) 
+  <img src="https://i.imgur.com/5HuAiJ2.png" alt="SPARQL Query from ChatGPT" width="600"/>
+
 
 
 
