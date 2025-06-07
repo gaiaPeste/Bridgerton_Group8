@@ -1,9 +1,10 @@
 <div id="menu" style="position:fixed;top:0;left:0;width:100%;background:#f8f8f8;border-bottom:1px solid #ddd;padding:5px 0;z-index:1000;text-align:center;">
-  <a href="#topic-description" style="margin:0 15px;color:#0366d6;font-weight:bold;">Topic Description</a>
-  <a href="#gap-general-methodology-tools" style="margin:0 15px;color:#0366d6;font-weight:bold;">Gap, General Methodology & Tools</a>
-  <a href="#methodological-steps" style="margin:0 15px;color:#0366d6;font-weight:bold;">Methodological Steps</a>
-  <a href="#challenges-and-llms-differences" style="margin:0 15px;color:#0366d6;font-weight:bold;">Challenges and LLMs differences</a>
+  <a href="topic-description.html" target="_blank" rel="noopener noreferrer" style="margin:0 15px;color:#0366d6;font-weight:bold;">Topic Description</a>
+  <a href="methodology.html" target="_blank" rel="noopener noreferrer" style="margin:0 15px;color:#0366d6;font-weight:bold;">Methodology</a>
+  <a href="steps.html" target="_blank" rel="noopener noreferrer" style="margin:0 15px;color:#0366d6;font-weight:bold;">Steps</a>
+  <a href="challenges.html" target="_blank" rel="noopener noreferrer" style="margin:0 15px;color:#0366d6;font-weight:bold;">Challenges</a>
 </div>
+
 
 <br><br><br><br><br>
 
