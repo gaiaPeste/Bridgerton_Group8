@@ -7,7 +7,7 @@
 </div>
 
 <br>
-![Bridgerton](https://ih1.redbubble.net/image.5055907023.9896/farp,small,wall_texture,product,750x1000.u1.jpg)  
+![Bridgerton](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlaDzFw09_Cv3CuZVUJULxHrbkmCiXpUDVd7iOHLZnYDqDJALWFVFwdi1exHRAFYg9-is&usqp=CAU)   
 
 # Abstract
 
