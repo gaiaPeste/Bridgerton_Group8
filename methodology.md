@@ -14,8 +14,7 @@
 After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as “Bridgerton” in DBpedia,  https://www.dbpedia.org/resources/ontology/. So we asked two LLMs (ChatGPT and Gemini),to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
 These were the results:
   
-  ChatGPT
-<p><strong>Example Query from ChatGPT:</strong></p>
+<p><strong> ChatGPT:</strong></p>
 
   <img src="https://i.imgur.com/5HuAiJ2.png" alt="SPARQL Query from ChatGPT" width="600"/>
 
@@ -37,7 +36,7 @@ These were the results:
 </details>
 
 <details>
-  <summary>🛠️ 3. Tools**</summary>
+  <summary>🛠️ 3. Tools</summary>
 
 </details>
 
