@@ -7,8 +7,8 @@
 </div>
 
 <br>
-![Octocat](https://i.etsystatic.com/34826667/r/il/e632cb/3773058344/il_fullxfull.3773058344_1rxu.jpg)  
-
+![Octocat](https://static.wikia.nocookie.net/bridgerton/images/9/99/Lady_Whistledown.jpg/revision/latest?cb=20240718035720)  
+ 
 # Abstract
 
 In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically ChatGPT (OpenAI) and Gemini (Google). Our goal was to model and assess whether certain concepts (e.g., general information and knowledge, themes, soundtrack) are represented in the graph, and where necessary, propose new triples.
