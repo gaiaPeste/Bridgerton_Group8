@@ -7,7 +7,9 @@
 </div>
 
 <br>
-![Bridgerton](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlaDzFw09_Cv3CuZVUJULxHrbkmCiXpUDVd7iOHLZnYDqDJALWFVFwdi1exHRAFYg9-is&usqp=CAU)   
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlaDzFw09_Cv3CuZVUJULxHrbkmCiXpUDVd7iOHLZnYDqDJALWFVFwdi1exHRAFYg9-is&usqp=CAU" alt="Lady Whistledown" width="400">
+</p>
 
 # Abstract
 
