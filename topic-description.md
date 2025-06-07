@@ -6,7 +6,7 @@
   <a href="challenges.html" style="margin:0 15px;color:#0366d6;font-weight:bold;">Challenges & LLMs Differences</a>
 </div>
 
-<br><br><br><br><br>
+<br>
 # Topic Description
 For our project, we have chosen to focus on the television series Bridgerton, a production that has gained widespread popularity and cultural relevance in recent years.This decision was made collectively, as the series is well-known, widely discussed, and familiar to all members of the group. Bridgerton includes multiple **interconnected storylines** and social dynamics, making it ideal for building a semantic graph (e.g. DBpedia) where entities and links reflect both explicit and inferred connections. This allows us to apply advanced querying techniques (e.g. Yasgui) to explore patterns, relationships, and hierarchies within the fictional world.
 
