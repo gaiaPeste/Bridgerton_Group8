@@ -6,7 +6,7 @@
   <a href="challenges.html" style="margin:0 15px;color:#0366d6;font-weight:bold;">Challenges & LLMs Differences</a>
 </div>
 
-<br><br>
+<br>
 
 
 # Abstract
