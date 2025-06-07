@@ -7,7 +7,7 @@
 </div>
 
 <br>
-![Octocat](https://static.wikia.nocookie.net/bridgerton/images/9/99/Lady_Whistledown.jpg/revision/latest?cb=20240718035720)  
+![Octocat](https://wildwoodvideoarchive.com/wp-content/uploads/2024/07/Cape-Mays-Own-Lady-Whistledown.png)  
  
 # Abstract
 
