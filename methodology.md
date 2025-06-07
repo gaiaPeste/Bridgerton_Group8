@@ -14,10 +14,12 @@ After having identified the entity we wanted to take into account, we decided to
 These were the results:
   
   ChatGPT
+
 ![QUERY 1](https://i.imgur.com/5HuAiJ2.png)
 ![QUERY 1](https://i.imgur.com/bJbrr2S.png)
 
 GEMINI
+
 ![QUERY 1](https://i.imgur.com/COdnf85.png)
 ![QUERY 1](https://i.imgur.com/gbjfinA.png)
 
@@ -32,12 +34,14 @@ This knowledge graph classifies “Bridgerton” as an entity of type: Televisio
 CLASSES:
 
 ChatGPT
+
 ![QUERY CLASSES](https://i.imgur.com/w4K1yda.png)
 ![QUERY CLASSES](https://i.imgur.com/LfOL1kx.png)
 ![QUERY CLASSES](https://i.imgur.com/p7AeWJL.png)
 ![QUERY CLASSES](https://i.imgur.com/UnvBert.png)
 
 GEMINI
+
 ![QUERY CLASSES](https://i.imgur.com/vtzqTXf.png)
 ![QUERY CLASSES](https://i.imgur.com/G1YYySy.png)
 ![QUERY CLASSES](https://i.imgur.com/xeTaNzB.png)
@@ -46,12 +50,14 @@ GEMINI
 PROPERTIES:
 
 ChatGPT
+
 ![QUERY PROPERTIES](https://i.imgur.com/Hb7AOxG.png)
 ![QUERY PROPERTIES](https://i.imgur.com/4hqSvps.png)
 ![QUERY PROPERTIES](https://i.imgur.com/mVfqVtJ.png)
 ![QUERY PROPERTIES](https://i.imgur.com/MUtNcKs.png)
 
 GEMINI
+
 ![QUERY PROPERTIES](https://i.imgur.com/IkmaZAt.png)
 ![QUERY PROPERTIES](https://i.imgur.com/IeNxMBK.png)
 ![QUERY PROPERTIES](https://i.imgur.com/3Mt0g2I.png)
