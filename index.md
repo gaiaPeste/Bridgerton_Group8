@@ -80,10 +80,3 @@ Contenuto della sezione 3.
 ## Sezione 4
 
 Contenuto della sezione 4.
-
-
-
-
-```
-Thank you for your attention!
-```
