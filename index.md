@@ -47,7 +47,12 @@ Visually, Bridgerton is known for its opulent production design, featuring grand
 
 ## Gap, General Methodology & Tools
 
-Contenuto della sezione 2.
+**HOW THE GAP WAS IDENTIFIED**
+After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as “Bridgerton” in DBpedia,  https://www.dbpedia.org/resources/ontology/. So we asked two LLMs (ChatGPT and Gemini),to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
+These were the results:
+ChatGPT
+![QUERY 1](https://i.imgur.com/5HuAiJ2.png)
+![QUERY 1](https://i.imgur.com/bJbrr2S.png)
 
 ---
 
