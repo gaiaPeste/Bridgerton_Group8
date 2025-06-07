@@ -7,7 +7,7 @@
 </div>
 
 <br>
-![Octocat](https://i.etsystatic.com/18332252/r/il/2aa5d5/2814174450/il_570xN.2814174450_1v9z.jpg) 
+![Octocat](https://i.etsystatic.com/34826667/r/il/e632cb/3773058344/il_fullxfull.3773058344_1rxu.jpg)  
 
 # Abstract
 
