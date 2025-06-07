@@ -4,12 +4,10 @@
   <a href="#sezione-3" style="margin:0 15px;color:#0366d6;font-weight:bold;">Sezione 3</a>
   <a href="#sezione-4" style="margin:0 15px;color:#0366d6;font-weight:bold;">Sezione 4</a>
 </div>
-
 <br><br><br><br><br>
-
 # Abstract
 
-In this project, we explored...
+In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically ChatGPT (OpenAI) and Gemini (Google). Our goal was to model and assess whether certain concepts (e.g., general information and knowledge, themes, soundtrack) are represented in the graph, and where necessary, propose new triples
 
 ---
 
