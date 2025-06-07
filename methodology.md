@@ -8,3 +8,18 @@
 
 <br><br><br><br><br>
 # Gap, Methodology & Tools
+<details>
+  <summary>How the gap was identified</summary>
+  Qui puoi mettere il contenuto della prima sezione.
+</details>
+
+<details>
+  <summary>General Methodology</summary>
+  Contenuto della seconda sezione, che si espande quando clicchi.
+</details>
+
+<details>
+  <summary>Tools</summary>
+  Questo è il contenuto della terza sezione a tendina.
+</details>
+
