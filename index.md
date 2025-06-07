@@ -1,37 +1,36 @@
 # Abstract
 
 In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically ChatGPT (OpenAI) and Gemini (Google). Our goal was to model and assess whether certain concepts (e.g., general information and knowledge, themes, soundtrack) are represented in the graph, and where necessary, propose new triples
+
+
 <style>
-  /* Fixed vertical menu on the left */
+  /* Horizontal top menu */
   #menu {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 200px;
-    background: #f0f0f0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    z-index: 1000;
     font-family: Arial, sans-serif;
   }
   #menu a {
-    display: block;
-    margin: 8px 0;
+    margin: 0 15px;
     color: #0366d6;
     text-decoration: none;
+    font-weight: bold;
   }
   #menu a:hover {
     text-decoration: underline;
   }
-  /* Add some left margin to main content so it doesn't hide behind the menu */
   #main-content {
-    margin-left: 240px;
-    padding: 20px;
+    padding-top: 60px; /* To avoid content being hidden behind menu */
   }
 </style>
 
 <div id="menu">
-  <strong>Menu</strong>
   <a href="#section1">Section 1</a>
   <a href="#section2">Section 2</a>
   <a href="#section3">Section 3</a>
@@ -40,25 +39,23 @@ In this project, we explored and enriched a knowledge graph (KG) about the TV se
 
 <div id="main-content">
 
-# Welcome to My Site
+# Welcome to My Research
 
 ## Section 1
 
-Content of section 1...
+Content for section 1...
 
 ## Section 2
 
-Content of section 2...
+Content for section 2...
 
 ## Section 3
 
-Content of section 3...
+Content for section 3...
 
 ## Section 4
 
-Content of section 4...
-
-</div>
+Content for section 4... 
 
 
 
