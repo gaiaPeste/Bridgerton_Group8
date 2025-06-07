@@ -9,17 +9,17 @@
 <br><br><br><br><br>
 # Gap, Methodology & Tools
 <details>
-  <summary>🔍 **1. How the Gap Was Identified**</summary>
+  <summary>🔍 1. How the Gap Was Identified</summary>
   
 </details>
 
 <details>
-  <summary>🧪 **2. General Methodology**</summary>
+  <summary>🧪 2. General Methodology</summary>
 
 </details>
 
 <details>
-  <summary>🛠️ **3. Tools**</summary>
+  <summary>🛠️ 3. Tools**</summary>
 
 </details>
 
