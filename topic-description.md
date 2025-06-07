@@ -7,7 +7,7 @@
 </div>
 
 <br><br><br><br><br>
-
+# Topic Description
 For our project, we have chosen to focus on the television series Bridgerton, a production that has gained widespread popularity and cultural relevance in recent years.This decision was made collectively, as the series is well-known, widely discussed, and familiar to all members of the group. Bridgerton includes multiple **interconnected storylines** and social dynamics, making it ideal for building a semantic graph (e.g. DBpedia) where entities and links reflect both explicit and inferred connections. This allows us to apply advanced querying techniques (e.g. Yasgui) to explore patterns, relationships, and hierarchies within the fictional world.
 
 Bridgerton is a historical romance television series created by Chris Van Dusen and produced by Shondaland, based on the bestselling novels by Julia Quinn. The show is set in **Regency-era London** (early 19th century), a period characterized by rigid social structures, elaborate courtship rituals, and intense pressure to marry advantageously. As of 2025, Bridgerton has released three seasons; additionally, the series has been renewed for Seasons 5 and 6, ensuring the continuation of the Bridgerton family's stories.
