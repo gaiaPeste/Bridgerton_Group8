@@ -27,6 +27,6 @@ In this website you may find our report consisting of a description of the selec
 
 ![Branching](https://media-assets.vanityfair.it/photos/660c178833508f82229a46bf/16:9/w_1280,c_limit/1_OWWnuMfWov0Tc4IjIU0RHQ%20copia.jpg)
 
-<p align="center">*Thank you for your attention!* </p>
+<p align="center">Thank you for your attention! </p>
  
 
