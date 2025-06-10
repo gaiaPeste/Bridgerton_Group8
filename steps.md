@@ -12,8 +12,11 @@
 <br>
 
 # Methodological Steps
-<strong>First steps: update and integration</strong>
-<br><br>
+<details>
+  <summary><strong>First steps: update and integration</strong> (click to expand)</summary>
+ <details>
+    <summary><strong>Update: Episodes and Seasons </strong>(click to expand)</summary>
+
 These initial queries have the aim to correct information related to the <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em>. In  both cases the values are wrong: the number of seasons should be 3, but it is represented as <em>xsd:2</em>, and the number of episodes should be 24, but it is represented as <em>xsd:16</em>. 
 <br>
 Furthermore both <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em> are associated with related DBpedia properties, <em>dbps: dbp:numSeasons and dbp:numEpisodes</em>, which are also incorrect. The procedure adopted to solve this issue is the same for both situations. 
@@ -25,7 +28,7 @@ First, the correction of the number of episodes will be presented, showing the r
   ChatGPT:
   <img src="https://i.imgur.com/sbnODQ6.png" alt="SPARQL Query Episodes" width="600"/> 
   <img src="https://i.imgur.com/V4PQq1a.png" alt="Yasgui Episodes" width="600"/> 
-  Gemini:
+ Gemini:
   <img src="https://i.imgur.com/tXEYWrI.png" alt="SPARQL Query Episodes" width="600"/> 
   <img src="https://i.imgur.com/jiBuE5t.png" alt="Yasgui Episodes" width="600"/> 
 </ol>
@@ -46,7 +49,7 @@ First, the correction of the number of episodes will be presented, showing the r
   ChatGPT:
   <img src="https://i.imgur.com/LDrh5si.png" alt="SPARQL Query Episodes" width="600"/> 
   <img src="https://i.imgur.com/U0ZoxnZ.png" alt="SPARQL Query Episodes" width="600"/>
-  Gemini
+   Gemini
    <img src="https://i.imgur.com/8uqzUln.png" alt="SPARQL Query Episodes" width="600"/>
    <img src="https://i.imgur.com/G7tDGwZ.png" alt="SPARQL Query Episodes" width="600"/>
   </ol>
@@ -72,3 +75,20 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/poYaZ8k.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/OTgOXat.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/sXZq5Id.png" alt="SPARQL Query Episodes" width="600"/>
+  </details>
+  
+   <details>
+    <summary>Integration: Starring, Caption and Start (click to expand)</summary>
+
+    Contenuto della sottosezione 2.
+
+  </details>
+
+</details>
+
+
+<br><br>
+
+ 
+  
+ 
