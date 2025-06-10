@@ -156,10 +156,12 @@ o	Ensuring vocabulary alignment and avoiding errors in prefix declaration.</ul>
 GitHub is a web-based platform for version control and collaboration. It lets developers store and manage code using Git, track changes, and work together on software projects..
 /ol>
 <br><br>
-
 </details>
-
 
 <p align="center">
   <img src="https://www.indiewire.com/wp-content/uploads/2024/05/BRIDGERTON_304_Unit_02860R.jpg?w=600&h=337&crop=1" alt="SPARQL Query" width="600"/>
 </p>
+
+
+
+
