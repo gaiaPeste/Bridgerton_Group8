@@ -22,6 +22,7 @@ These initial queries have the aim to correct information related to the <em>dbo
 Furthermore both <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em> are associated with related DBpedia properties, <em>dbps: dbp:numSeasons and dbp:numEpisodes</em>, which are also incorrect. The procedure adopted to solve this issue is the same for both situations. 
 <br>
 First, the correction of the number of episodes will be presented, showing the results provided by both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>. Then the situation about the number of seasons will be addressed.
+<strong>EPISODES</strong>
 <ol>
   1) First of all the actual <em>dbo:numberOfEpisodes</em> value was checked through an initial query. A zero-shot prompt was proposed to both LLMs as follows. Here are the results:
   <img src="https://i.imgur.com/XcxtieO.png" alt="SPARQL Query Episodes" width="600"/>
@@ -75,6 +76,7 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/poYaZ8k.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/OTgOXat.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/sXZq5Id.png" alt="SPARQL Query Episodes" width="600"/>
+  <strong>SEASONS</strong>
   </details>
   
    <details>
