@@ -10,7 +10,7 @@
 # Gap, Methodology & Tools
 <details>
   <summary>🔍 <strong>1. How the Gap Was Identified</strong></summary>
-
+  <br><br>
 After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as "Bridgerton" in <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a>. So we asked two LLMs,  <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>,to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
 These were the results:
   
@@ -71,6 +71,7 @@ After having explored the vocabulary related to our knowledge graph, we decided 
 
 <details>
   <summary>🧪 <strong>2. General Methodology</strong></summary>
+  <br><br>
   In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>
 Our goal was to model and assess whether certain concepts (e.g., general information and knowledge about themes and the soundtrack) are represented in the graph, and where necessary, propose new triples.
 <br> 
@@ -104,13 +105,12 @@ We used three prompting strategies:
   We critically evaluated LLM outputs by checking query correctness using a SPARQL endpoint (e.g. <a href="https://dbpedia.org/sparql" target="_blank" rel="noopener noreferrer">DBpedia SPARQL interface</a>, <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>
 ). We noticed that both LLMs had strong understanding of RDF, RDFS, OWL, SPARQL, and semantic modeling practices. They are familiar with Linked Data vocabularies (e.g., DBpedia, FOAF, etc.) and understand how to model new triples or propose schema extensions using correct RDF syntax. 
 <br>
-
 This project demonstrated how SPARQL and LLMs can work in synergy to enrich and interrogate a cultural knowledge graph. From querying existing data to proposing new semantic connections, we applied best practices in prompt engineering, ontology alignment, and RDF modeling, all while evaluating the reliability and expressiveness of different language models.
 <br><br>
 </details>
 
 <details>
-  <summary>🛠️ 3. Tools</summary>
+  <summary>🛠️ <strong>3. Tools</strong></summary>
   <ol>
   1.	LLMs: 	<strong><a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a></strong>  and  <strong><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a></strong>: 
     <ul>
@@ -126,7 +126,34 @@ o	Rewriting prompts using few-shot or chain-of-thought methods.</ul>
      <ul>
 o	Evaluating and refining RDF vocabulary usage. </ul>
   </ol>
-
+  <ol>
+  2.	<strong><a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">YASGUI</a></strong>
+    <ul>
+•	Purpose: A web-based SPARQL query interface used to write, test, and run SPARQL queries on DBpedia and other endpoints.</ul>
+     <ul>
+•	Benefits:</ul>
+     <ul>
+o	Syntax highlighting and prefix auto-completion.</ul>
+     <ul>
+o	Easy visualization of results.</ul>
+     <ul>
+o	Support for custom SPARQL endpoints.</ul>
+  </ol>
+  <ol>
+  3.	<strong><a href="https://prefix.cc/" target="_blank" rel="noopener noreferrer">Prefix.cc</a></strong>
+    <ul>
+•	Purpose: A lookup service for common RDF and SPARQL prefixes.</ul>
+    <ul>
+•	Use in Project:</ul>
+    <ul>
+o	Quickly finding standard prefixes (e.g., dbo, rdfs, foaf) to ensure correct namespace usage in queries.</ul>
+    <ul>
+o	Ensuring vocabulary alignment and avoiding errors in prefix declaration.</ul>
+</ol> 
+<ol>
+4.	<strong><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong>
+GitHub is a web-based platform for version control and collaboration. It lets developers store and manage code using Git, track changes, and work together on software projects..
+/ol>
 </details>
 
 
