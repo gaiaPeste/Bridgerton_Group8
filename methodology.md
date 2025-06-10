@@ -11,7 +11,7 @@
 <details>
   <summary>🔍 1. How the Gap Was Identified</summary>
 
-After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as "Bridgerton" in <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a>. So we asked two LLMs, [ChatGPT ](https://chatgpt.com/) and [Gemini(https://gemini.google.com/?hl=it)),to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
+After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as "Bridgerton" in <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a>. So we asked two LLMs,  <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>,to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
 These were the results:
   
 <p><strong> ChatGPT:</strong></p>
