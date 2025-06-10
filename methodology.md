@@ -11,12 +11,13 @@
 <details>
   <summary>🔍 1. How the Gap Was Identified</summary>
 
-After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as “Bridgerton” in DBpedia,  https://www.dbpedia.org/resources/ontology/. So we asked two LLMs (ChatGPT and Gemini),to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
+After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as “Bridgerton” in [DBpedia](https://www.dbpedia.org/resources/ontology/). So we asked two LLMs ([ChatGPT](https://chatgpt.com/) and [Gemini](https://gemini.google.com/?hl=it)),to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
 These were the results:
   
 <p><strong> ChatGPT:</strong></p>
 
   <img src="https://i.imgur.com/5HuAiJ2.png" alt="SPARQL Query from ChatGPT" width="600"/>
+  <img src="https://i.imgur.com/bJbrr2S.png" alt="SPARQL Query from ChatGPT" width="600"/> 
 
 
 
