@@ -62,8 +62,9 @@ The two LLMs gave the same result, but Gemini added and ORDER BY to range the re
 
 After having explored the vocabulary related to our knowledge graph, we decided to have a look at it and we noticed instantly that some information was **wrong** and needed to be **modified**
 that some classes and properties needed to be **integrated** and that some information could be **added integrally**. So we developed a general methodology to address all this instances. 
-***
+<br> 
 </details>
+
 
 
 <details>
