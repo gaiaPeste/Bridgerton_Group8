@@ -78,5 +78,5 @@ that some classes and properties needed to be **integrated** and that some infor
 
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/fbc4bc55-d188-49d6-b798-e4507abd9170)" alt="SPARQL Query" width="600"/>
+  <img src="https://www.indiewire.com/wp-content/uploads/2024/05/BRIDGERTON_304_Unit_02860R.jpg?w=600&h=337&crop=1" alt="SPARQL Query" width="600"/>
 </p>
