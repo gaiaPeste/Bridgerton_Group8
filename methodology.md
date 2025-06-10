@@ -62,6 +62,7 @@ This knowledge graph classifies “Bridgerton” as an entity of type: Televisio
 The two LLMs gave the same result, but Gemini added and ORDER BY to range the results in alphabetical order.
 
 After having explored the vocabulary related to our knowledge graph, we decided to have a look at it and we noticed instantly that some information was <strong>wrong</strong> and needed to be <strong>modified</strong> that some classes and properties needed to be <strong>integrated</strong> and that some information could be <strong>added integrally</strong>. So we developed a general methodology to address all this instances. 
+<br><br>
 
 
 </details>
@@ -78,11 +79,15 @@ Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="n
 After having identified the areas that we wanted to explore more in depth, we wrote several SPARQL queries targeting the DBpedia resource for Bridgerton. 
 In doing so, we applied multiple SPARQL keywords to extract or validate thematic information:
 <ul>
-•	FILTER + REGEX to detect the presence of specific keywords in abstracts
-•	OPTIONAL to be able to have queries that allow information to be added to the solution where the information is available, but do not reject the solution because some part of the query pattern does not match
-•	DISTINCT and LIMIT to refine and control results
-•	ORDER BY to sort output (used in debugging and display queries)
-•	UNION to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").
+•	FILTER + REGEX to detect the presence of specific keywords in abstracts</ul>
+  <ul>
+•	OPTIONAL to be able to have queries that allow information to be added to the solution where the information is available, but do not reject the solution because some part of the query pattern does not match </ul>
+  <ul>
+•	DISTINCT and LIMIT to refine and control results</ul>
+  <ul>
+•	ORDER BY to sort output (used in debugging and display queries)</ul>
+  <ul>
+•	UNION to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").</ul>
 </ul>
 <br>
 When existing links were missing or were incorrect, we proposed new conceptual connections using RDF triples. We designed custom RDF triples using SPARQL CONSTRUCT queries to represent new knowledge. So we used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a> to generate these triples, model their structure, and validate whether the vocabulary aligned with <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a>. We also explored how LLMs can help when formal vocabulary is lacking.
@@ -99,6 +104,7 @@ We used three prompting strategies:
 <br>
 
 This project demonstrated how SPARQL and LLMs can work in synergy to enrich and interrogate a cultural knowledge graph. From querying existing data to proposing new semantic connections, we applied best practices in prompt engineering, ontology alignment, and RDF modeling, all while evaluating the reliability and expressiveness of different language models.
+<br><br>
 </details>
 
 <details>
