@@ -3,3 +3,6 @@ description: Group 8 website.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-merlot
+markdown: kramdown
+kramdown:
+input: GFM
