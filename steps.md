@@ -24,9 +24,51 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/XcxtieO.png" alt="SPARQL Query Episodes" width="600"/>
   ChatGPT:
   <img src="https://i.imgur.com/sbnODQ6.png" alt="SPARQL Query Episodes" width="600"/> 
-  <img src="https://i.imgur.com/V4PQq1a.png" alt="SPARQL Query Episodes" width="600"/> 
+  <img src="https://i.imgur.com/V4PQq1a.png" alt="Yasgui Episodes" width="600"/> 
   Gemini:
   <img src="https://i.imgur.com/tXEYWrI.png" alt="SPARQL Query Episodes" width="600"/> 
-  
-  
+  <img src="https://i.imgur.com/jiBuE5t.png" alt="Yasgui Episodes" width="600"/> 
 </ol>
+<ol>
+  2) The wrong value was immediately corrected through the construction of new RDFs triples, obtained through chain-of-thought prompting:
+   <img src="https://i.imgur.com/6GDhFcT.png" alt="SPARQL Query Episodes" width="600"/> 
+  ChatGPT:
+   <img src="https://i.imgur.com/EXmMcby.png" alt="SPARQL Query Episodes" width="600"/> 
+   <img src="https://i.imgur.com/RuZhaMt.png" alt="SPARQL Query Episodes" width="600"/> 
+   <img src="https://i.imgur.com/5ff3MuV.png" alt="SPARQL Query Episodes" width="600"/> 
+  Gemini:
+   <img src="https://i.imgur.com/lXm4sZT.png" alt="SPARQL Query Episodes" width="600"/> 
+   <img src="https://i.imgur.com/CiKbkFL.png" alt="SPARQL Query Episodes" width="600"/> 
+   </ol>
+<ol>
+  3) Then, the <em>dbo:numberOfEpisodes</em> and <em>dbp:numEpisodes</em> were compared through another query:
+  <img src="https://i.imgur.com/tvugGKz.png" alt="SPARQL Query Episodes" width="600"/> 
+  ChatGPT:
+  <img src="https://i.imgur.com/LDrh5si.png" alt="SPARQL Query Episodes" width="600"/> 
+  <img src="https://i.imgur.com/U0ZoxnZ.png" alt="SPARQL Query Episodes" width="600"/>
+  Gemini
+   <img src="https://i.imgur.com/8uqzUln.png" alt="SPARQL Query Episodes" width="600"/>
+   <img src="https://i.imgur.com/G7tDGwZ.png" alt="SPARQL Query Episodes" width="600"/>
+  </ol>
+  <ol>
+    4)	Finally also the dbp:numEpisodes was corrected:
+    ChatGPT (with a zero-shot prompt): 
+    <img src="https://i.imgur.com/dpOnemL.png" alt="SPARQL Query Episodes" width="600"/>
+    <img src="https://i.imgur.com/CNnc1QR.png" alt="SPARQL Query Episodes" width="600"/>
+    Gemini (with a chain-of-thought prompt):
+    <img src="https://i.imgur.com/Oaht2Ir.png" alt="SPARQL Query Episodes" width="600"/>
+    <img src="https://i.imgur.com/YmpnuqS.png" alt="SPARQL Query Episodes" width="600"/>
+    <img src="https://i.imgur.com/6kHNrWE.png" alt="SPARQL Query Episodes" width="600"/>
+    <img src="https://i.imgur.com/KeJ8yyJ.png" alt="SPARQL Query Episodes" width="600"/>
+ </ol>
+ BONUS: in the knowledge graph there was also another dbp related to episodes, which was wrong too. So also the <em>dbp:episodes</em> was corrected as follows, with few-shot prompting.
+  <img src="https://i.imgur.com/pgxOfS0.png" alt="SPARQL Query Episodes" width="600"/>
+  ChatGPT:
+  <img src="https://i.imgur.com/Nyx4aks.png" alt="SPARQL Query Episodes" width="600"/>
+  <img src="https://i.imgur.com/8BRHy2r.png" alt="SPARQL Query Episodes" width="600"/>
+  <img src="https://i.imgur.com/Ck3IfEM.png" alt="SPARQL Query Episodes" width="600"/>
+  Gemini:
+  <img src="https://i.imgur.com/IRLtuSF.png" alt="SPARQL Query Episodes" width="600"/>
+  <img src="https://i.imgur.com/poYaZ8k.png" alt="SPARQL Query Episodes" width="600"/>
+  <img src="https://i.imgur.com/OTgOXat.png" alt="SPARQL Query Episodes" width="600"/>
+  <img src="https://i.imgur.com/sXZq5Id.png" alt="SPARQL Query Episodes" width="600"/>
