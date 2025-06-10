@@ -9,7 +9,7 @@
 <br>
 # Gap, Methodology & Tools
 <details>
-  <summary>🔍 1. How the Gap Was Identified</summary>
+  <summary>🔍 <strong>1. How the Gap Was Identified</strong></summary>
 
 After having identified the entity we wanted to take into account, we decided to execute a first general query to find anything that was labelled as "Bridgerton" in <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a>. So we asked two LLMs,  <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>,to produce a query following the example included in the guidelines presentation, involving few-shot prompting.
 These were the results:
@@ -70,7 +70,7 @@ After having explored the vocabulary related to our knowledge graph, we decided 
 
 
 <details>
-  <summary>🧪 2. General Methodology</summary>
+  <summary>🧪 <strong>2. General Methodology</strong></summary>
   In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>
 Our goal was to model and assess whether certain concepts (e.g., general information and knowledge about themes and the soundtrack) are represented in the graph, and where necessary, propose new triples.
 <br> 
@@ -88,15 +88,17 @@ In doing so, we applied multiple SPARQL keywords to extract or validate thematic
 •	ORDER BY to sort output (used in debugging and display queries)</ul>
   <ul>
 •	UNION to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").</ul>
-</ul>
+
 <br>
 When existing links were missing or were incorrect, we proposed new conceptual connections using RDF triples. We designed custom RDF triples using SPARQL CONSTRUCT queries to represent new knowledge. So we used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a> to generate these triples, model their structure, and validate whether the vocabulary aligned with <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a>. We also explored how LLMs can help when formal vocabulary is lacking.
 We used three prompting strategies:
 <ul>
--	Zero-shot: Direct requests (“Can you give me a complete and detailed list of the themes in the Bridgerton TV series?”)
--	Few-shot: Providing examples like the personal desire and the emotional struggles triples before asking for a new one on taboos.
--	Chain-of-thought: Asking the LLM to think step-by-step before generating a triple (e.g., “Think step-by-step how to model a triple connecting Bridgerton to the concept of emotional struggle”).
-</ul>
+-	Zero-shot: Direct requests (“Can you give me a complete and detailed list of the themes in the Bridgerton TV series?”)</ul>
+<ul>
+-	Few-shot: Providing examples like the personal desire and the emotional struggles triples before asking for a new one on taboos.</ul>
+<ul>
+-	Chain-of-thought: Asking the LLM to think step-by-step before generating a triple (e.g., “Think step-by-step how to model a triple connecting Bridgerton to the concept of emotional struggle”).</ul>
+
 <br>
 
   We critically evaluated LLM outputs by checking query correctness using a SPARQL endpoint (e.g. <a href="https://dbpedia.org/sparql" target="_blank" rel="noopener noreferrer">DBpedia SPARQL interface</a>, <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>
@@ -109,13 +111,21 @@ This project demonstrated how SPARQL and LLMs can work in synergy to enrich and 
 
 <details>
   <summary>🛠️ 3. Tools</summary>
+  <ol>
   1.	LLMs: 	<strong><a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a></strong>  and  <strong><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a></strong>: 
--	Purpose: Used as a language model assistant for generating SPARQL queries, proposing RDF triples, modeling ontological relationships, and supporting prompt engineering.
--	Strengths: Strong performance in structured reasoning, syntax generation, and adherence to ontological standards when prompted effectively.
--	Use Cases:
-o	Creating SPARQL queries (SELECT, CONSTRUCT).
-o	Rewriting prompts using few-shot or chain-of-thought methods.
-o	Evaluating and refining RDF vocabulary usage.
+    <ul>
+-	Purpose: Used as a language model assistant for generating SPARQL queries, proposing RDF triples, modeling ontological relationships, and supporting prompt engineering.</ul>
+     <ul>
+-	Strengths: Strong performance in structured reasoning, syntax generation, and adherence to ontological standards when prompted effectively.</ul>
+     <ul>
+-	Use Cases:</ul>
+    <ul>
+o	Creating SPARQL queries (SELECT, CONSTRUCT).</ul>
+     <ul>
+o	Rewriting prompts using few-shot or chain-of-thought methods.</ul>
+     <ul>
+o	Evaluating and refining RDF vocabulary usage. </ul>
+  </ol>
 
 </details>
 
