@@ -111,6 +111,7 @@ This project demonstrated how SPARQL and LLMs can work in synergy to enrich and 
 
 <details>
   <summary>🛠️ <strong>3. Tools</strong></summary>
+  <br><br>
   <ol>
   1.	LLMs: 	<strong><a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a></strong>  and  <strong><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a></strong>: 
     <ul>
@@ -154,6 +155,8 @@ o	Ensuring vocabulary alignment and avoiding errors in prefix declaration.</ul>
 4.	<strong><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong>
 GitHub is a web-based platform for version control and collaboration. It lets developers store and manage code using Git, track changes, and work together on software projects..
 /ol>
+<br><br>
+
 </details>
 
 
