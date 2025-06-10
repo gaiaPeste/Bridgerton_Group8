@@ -5,4 +5,4 @@ google_analytics:
 theme: jekyll-theme-merlot
 markdown: kramdown
 kramdown:
-input: GFM
+  input: GFM
