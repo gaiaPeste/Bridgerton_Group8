@@ -76,8 +76,9 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/poYaZ8k.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/OTgOXat.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/sXZq5Id.png" alt="SPARQL Query Episodes" width="600"/>
+  <br>
   <strong>SEASONS</strong>
-  The same procedure has been applied to the data concerning the number of seasons, following the same approach used for the number of episodes. The steps will be showed in the same order:
+  The same procedure has been applied to the data concerning the number of seasons, following the same approach used for the number of episodes. The steps will be showed in the same order: <br>
 1) 
 <img src="https://i.imgur.com/wu4LZOI.png" alt="SPARQL Query Seasons" width="600"/> <br>
 ChatGPT:
@@ -111,6 +112,11 @@ Gemini
   
    <details>
     <summary><strong>Integration: Starring, Caption and Start</strong> (click to expand)</summary>
+Subsequently, we identified other categories that required integration, specifically <em>dbo:starring</em>, <em>dbp:caption</em> and <em>dbp:start</em>.
+In these cases, the LLMs were prompted to generate CONSTRUCT queries aimed at adding resources to the corresponding categories, which were then executed using <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>. Both models emphasized that, in order to effectively modify the knowledge graph, INSERT DATA statements would have been required. Therefore, the RDF triples presented here are intended as suggestions that can be exported or uploaded to the graph accordingly. <br>
+<strong><em>dbo:starring</em></strong> <br>
+1) As a first step, both LLMs were asked to generate a CONSTRUCT query to add new resources to the class. NOTE: ChatGPT autonomously recommended verifying which resources were already included in the class. Although its proposed query made use of the OPTIONAL keyword—thereby inherently avoiding the addition of duplicate resources, we nonetheless executed the supplementary verification query to fully adhere to the model's suggestion.
+Following this, we proceeded to run the CONSTRUCT queries provided by both LLMs.
 
     
   </details>
