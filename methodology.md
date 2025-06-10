@@ -27,7 +27,17 @@ These were the results:
 Both LLMs gave us the same outcome, to which we added LIMIT 100 to have a reasonable outcome.Then
 we executed the query and we obtained a series of results, between which we individuated the knowledge graph we wanted to amplify (n. 30), traceable with the IRI: [https://dbpedia.org/page/Bridgerton](https://dbpedia.org/page/Bridgerton) . 
 
+<img src="https://i.imgur.com/DvKTVa6.png" alt="Yasgui" width="600"/> 
+<img src="https://i.imgur.com/uZhTrn5.png" alt="Yasgui" width="600"/> 
 
+This knowledge graph classifies “Bridgerton” as an entity of type: Television show. From there we decided to execute other two very general queries to individuate the classes and properties already related to the dbr:Bridgerton, so to have a general idea of what we were working 
+
+CLASSES:
+<p><strong> ChatGPT:</strong></p>
+<img src="https://i.imgur.com/w4K1yda.png" alt="SPARQL Query from ChatGPT" width="600"/>
+<img src="https://i.imgur.com/LfOL1kx.png" alt="SPARQL Query from ChatGPT" width="600"/>
+<img src="https://i.imgur.com/p7AeWJL.png" alt="SPARQL Query from ChatGPT" width="600"/>
+<img src="https://i.imgur.com/UnvBert.png" alt="SPARQL Query from ChatGPT" width="600"/>
 
 
 
