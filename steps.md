@@ -6,10 +6,12 @@
   <a href="challenges.html" style="margin:0 15px;color:#0366d6;font-weight:bold;">Challenges & LLMs Differences</a>
 </div>
 
-<div align="center">
-  <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/1781D/production/_116158269_bridgerton_108_unit_02448r.jpg.webp" alt="Bridgerton" style_
+<br>
+<p align="center">
+  <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/1781D/production/_116158269_bridgerton_108_unit_02448r.jpg.webp" alt="Bridgerton" style="display: block; margin_
 
-<br><br>
+<br>
+
 # Methodological Steps
 <strong>First steps: update and integration</strong>
 <br><br>
