@@ -30,7 +30,7 @@ we executed the query and we obtained a series of results, between which we indi
 <img src="https://i.imgur.com/DvKTVa6.png" alt="Yasgui" width="600"/> 
 <img src="https://i.imgur.com/uZhTrn5.png" alt="Yasgui" width="600"/> 
 
-This knowledge graph classifies “Bridgerton” as an entity of type: Television show. From there we decided to execute other two very general queries to individuate the classes and properties already related to the dbr:Bridgerton, so to have a general idea of what we were working 
+This knowledge graph classifies “Bridgerton” as an entity of type: Television show. From there we decided to execute other two very general queries to individuate the classes and properties already related to the [dbr:Bridgerton](https://dbpedia.org/page/Bridgerton), so to have a general idea of what we were working 
 
 <p><strong>CLASSES:</strong></p> 
 <p><strong> ChatGPT:</strong></p>
@@ -60,9 +60,9 @@ This knowledge graph classifies “Bridgerton” as an entity of type: Televisio
 
 The two LLMs gave the same result, but Gemini added and ORDER BY to range the results in alphabetical order.
 
-After having explored the vocabulary related to our knowledge graph, we decided to have a look at it and we noticed instantly that some information was **wrong** and needed to be **modified**
-that some classes and properties needed to be **integrated** and that some information could be **added integrally**. So we developed a general methodology to address all this instances. 
-<br> 
+After having explored the vocabulary related to our knowledge graph, we decided to have a look at it and we noticed instantly that some information was **wrong** and needed to be **modified** that some classes and properties needed to be **integrated** and that some information could be **added integrally**. So we developed a general methodology to address all this instances. 
+
+
 </details>
 
 
