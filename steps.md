@@ -77,13 +77,42 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/OTgOXat.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/sXZq5Id.png" alt="SPARQL Query Episodes" width="600"/>
   <strong>SEASONS</strong>
+  The same procedure has been applied to the data concerning the number of seasons, following the same approach used for the number of episodes. The steps will be showed in the same order:
+1) 
+<img src="https://i.imgur.com/wu4LZOI.png" alt="SPARQL Query Seasons" width="600"/> <br>
+ChatGPT:
+<img src="https://i.imgur.com/o0Y8Cgz.png" alt="SPARQL Query Seasons" width="600"/> 
+<img src="https://i.imgur.com/DXZxcYd.png" alt="SPARQL Query Seasons" width="600"/> 
+Gemini:
+<img src="https://i.imgur.com/jYzEcyV.png" alt="SPARQL Query Seasons" width="600"/> 
+<img src="https://i.imgur.com/vgSZTXG.png" alt="SPARQL Query Seasons" width="600"/> 
+2) 
+<img src="https://i.imgur.com/z58GDZg.png" alt="SPARQL Query Seasons" width="600"/> 
+ChatGPT
+<img src="https://i.imgur.com/JIdw9xw.png" alt="SPARQL Query Seasons" width="600"/> 
+Gemini
+<img src="https://i.imgur.com/3yIxS80.png" alt="SPARQL Query Seasons" width="600"/> 
+3) 
+<img src="https://i.imgur.com/msi9blH.png" alt="SPARQL Query Seasons" width="600"/> 
+ChatGPT
+<img src="https://i.imgur.com/aAiA8ED.png" alt="SPARQL Query Seasons" width="600"/> 
+<img src="https://i.imgur.com/4hzFgGG.png" alt="SPARQL Query Seasons" width="600"/> 
+Gemini
+<img src="https://i.imgur.com/AJ94aIi.png" alt="SPARQL Query Seasons" width="600"/> 
+<img src="https://i.imgur.com/Qqkvubc.png" alt="SPARQL Query Seasons" width="600"/> 
+4)
+<img src="https://i.imgur.com/edUaQAB.png" alt="SPARQL Query Seasons" width="600"/>
+ChatGPT
+<img src="https://i.imgur.com/vyGzfpr.png" alt="SPARQL Query Seasons" width="600"/>
+Gemini
+<img src="https://i.imgur.com/NaPLpnw.png" alt="SPARQL Query Seasons" width="600"/>
+
   </details>
   
    <details>
     <summary><strong>Integration: Starring, Caption and Start</strong> (click to expand)</summary>
 
-    Contenuto della sottosezione 2.
-
+    
   </details>
 
 </details>
