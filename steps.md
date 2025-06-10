@@ -13,7 +13,7 @@
 
 # Methodological Steps
 <details>
-  <summary><strong>First steps: update and integration</strong> (click to expand)</summary>
+  <summary style="color:purple"><strong>First steps: update and integration</strong> (click to expand)</summary>
  <details>
     <summary><strong>Update: Episodes and Seasons </strong>(click to expand)</summary>
 
