@@ -54,7 +54,7 @@ First, the correction of the number of episodes will be presented, showing the r
    <img src="https://i.imgur.com/G7tDGwZ.png" alt="SPARQL Query Episodes" width="600"/>
   </ol>
   <ol>
-    4)	Finally also the dbp:numEpisodes was corrected:
+    4)	Finally also the dbp:numEpisodes was corrected: <br>
     ChatGPT (with a zero-shot prompt): 
     <img src="https://i.imgur.com/dpOnemL.png" alt="SPARQL Query Episodes" width="600"/>
     <img src="https://i.imgur.com/CNnc1QR.png" alt="SPARQL Query Episodes" width="600"/>
@@ -78,7 +78,7 @@ First, the correction of the number of episodes will be presented, showing the r
   </details>
   
    <details>
-    <summary>Integration: Starring, Caption and Start (click to expand)</summary>
+    <summary><strong>Integration: Starring, Caption and Start</strong> (click to expand)</summary>
 
     Contenuto della sottosezione 2.
 
