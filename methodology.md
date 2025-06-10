@@ -25,12 +25,13 @@ These were the results:
   <img src="https://i.imgur.com/gbjfinA.png" alt="SPARQL Query from Gemini" width="600"/> 
 
 Both LLMs gave us the same outcome, to which we added LIMIT 100 to have a reasonable outcome.Then
-we executed the query and we obtained a series of results, between which we individuated the knowledge graph we wanted to amplify (n. 30), traceable with the IRI [https://dbpedia.org/page/Bridgerton](https://dbpedia.org/page/Bridgerton) .
+we executed the query and we obtained a series of results, between which we individuated the knowledge graph we wanted to amplify (n. 30), traceable with the IRI <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">https://dbpedia.org/page/Bridgerton</a>.
 
 <img src="https://i.imgur.com/DvKTVa6.png" alt="Yasgui" width="600"/> 
 <img src="https://i.imgur.com/uZhTrn5.png" alt="Yasgui" width="600"/> 
 
-This knowledge graph classifies “Bridgerton” as an entity of type: Television show. From there we decided to execute other two very general queries to individuate the classes and properties already related to the [dbr:Bridgerton](https://dbpedia.org/page/Bridgerton), so to have a general idea of what we were working 
+This knowledge graph classifies “Bridgerton” as an entity of type: Television show. From there we decided to execute other two very general queries to individuate the classes and properties already related to the <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">dbr:Bridgerton</a>
+, so to have a general idea of what we were working 
 
 <p><strong>CLASSES:</strong></p> 
 <p><strong> ChatGPT:</strong></p>
