@@ -171,11 +171,20 @@ Gemini:
 In this case GEMINI needed more directions than ChatGPT to realize an adequate query. 
   </details>
  <details>
-  <summary style="color:purple"><strong>First steps: update and integration</strong> (click to expand)</summary>
- <details>
-    <summary><strong>Update: Episodes and Seasons </strong>(click to expand)</summary>
+  <summary>Main Section 2 (click to expand)</summary>
 
-</details>
+  Contenuto principale 2 qui.
+
+  <details>
+    <summary>Subsection 2.1 (click to expand)</summary>
+    Contenuto della sottosezione 2.1.
+  </details>
+
+  <details>
+    <summary>Subsection 2.2 (click to expand)</summary>
+    Contenuto della sottosezione 2.2.
+  </details>
+
 
 
 <br><br>
