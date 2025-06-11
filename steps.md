@@ -255,17 +255,17 @@ And 0 results, so we created new triples:
 
  <ol>
 1)	We asked both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> for information about the Bridgerton soundtrack, including its music genre, composer, and performers </ol>
-<img>
-<img>
+<img src="https://i.imgur.com/kCwwjxs.png" alt="SPARQL Query Soundtrack" width="600"/> 
+<img src="https://i.imgur.com/EVr4RIj.png" alt="SPARQL Query Soundtrack" width="600"/> 
   <ol>
 2)	Next, we used <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a> to query the <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">dbr:Bridgerton</a>, so to have a general idea of what we were working  for available information on the music genre (classical), composer (Kris Bowers), and performers (Vitamin String Quartet). However, all the queries returned zero results.</ol>
-<img>
-<img>
-<img>
+<img src="https://i.imgur.com/RusNLgo.png" alt="SPARQL Query Soundtrack" width="600"/> 
+<img src="https://i.imgur.com/JKQlB8P.png" alt="SPARQL Query Soundtrack" width="600"/> 
+<img src="https://i.imgur.com/JKQlB8P.png" alt="SPARQL Query Soundtrack" width="600"/> 
   <ol>
 3)	We presented both ChatGPT and Gemini with an example of a SPARQL CONSTRUCT query that links ‘Bridgerton’ to one of its themes.</ol>
-<img>
-<img>
+<img src="https://i.imgur.com/uttYUDm.png" alt="SPARQL Query Soundtrack" width="600"/> 
+<img src="https://i.imgur.com/cAXNbr6.png" alt="SPARQL Query Soundtrack" width="600"/> 
   <ol>
 4)	Next, starting from one of the identified ‘gaps,’ we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT</ol>
   <ol>
@@ -276,47 +276,47 @@ You may find in the following sub-sections all the 3 procedures, respectively fo
     <summary>Soundtrack genre</summary>
 We asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. <br>
   ChatGPT:
-  <img>
+  <img src="https://i.imgur.com/43UWPek.png" alt="SPARQL Query Soundtrack" width="600"/> 
   Gemini:
-  <img>
-  <img>
+  <img src="https://i.imgur.com/AVc3zZe.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/F3K4W2w.png" alt="SPARQL Query Soundtrack" width="600"/> 
 Subsequently, we entered both generated triples into Yasgui:
-  <img>
-  <img>
-  <img>
-  <img>
+  <img src="https://i.imgur.com/paRDZQz.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/mCocggB.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/AZyx17t.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/lKBbU7S.png" alt="SPARQL Query Soundtrack" width="600"/> 
   </details>
 
   <details>
    <summary>Soundtrack composer</summary>
 For the soundtrack composer the same procedure was followed: we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. The new triple is created in order to fill the gap concerning the soundtrack’s producer ‘Kris Bowers’.<br>
   ChatGPT:
-  <img>
-  <img>
-  <img>
-  <img>
+  <img src="https://i.imgur.com/uttYUDm.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/zgAAMrz.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/8aMB1MF.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/ig034s8.png" alt="SPARQL Query Soundtrack" width="600"/> 
   Gemini:
-  <img>
-  <img>
-  <img>
-  <img>
-  <img>
+  <img src="https://i.imgur.com/cAXNbr6.png" alt="SPARQL Query Soundtrack" width="600"/>
+  <img src="https://i.imgur.com/dZ05THh.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/wkzUGgK.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/r1D48AD.png" alt="SPARQL Query Soundtrack" width="600"/> 
+  <img src="https://i.imgur.com/V33E7Pl.png" alt="SPARQL Query Soundtrack" width="600"/> 
   </details>
   <details>
   <summary>Soundtrack Performers</summary>
     The same procedure was adopted for what concerns the performers ‘Vitamin String Qartet’. <br>
     ChatGPT:
-    <img>
-    <img>
-    <img>
-    <img>
-    <img>
+     <img src="https://i.imgur.com/uttYUDm.png" alt="SPARQL Query Soundtrack" width="600"/>
+     <img src="https://i.imgur.com/S0slq60.png" alt="SPARQL Query Soundtrack" width="600"/>
+     <img src="https://i.imgur.com/vjkkUxG.png" alt="SPARQL Query Soundtrack" width="600"/>
+     <img src="https://i.imgur.com/f7owX3o.png" alt="SPARQL Query Soundtrack" width="600"/>
+     <img src="https://i.imgur.com/elkfxAT.png" alt="SPARQL Query Soundtrack" width="600"/>
     Gemini:
-    <img>
-    <img>
-    <img>
-    <img>
-    <img>
+    <img src="https://i.imgur.com/cAXNbr6.png" alt="SPARQL Query Soundtrack" width="600"/>
+    <img src="https://i.imgur.com/O76OKRS.png" alt="SPARQL Query Soundtrack" width="600"/>
+    <img src="https://i.imgur.com/j3rzPrc.png" alt="SPARQL Query Soundtrack" width="600"/>
+    <img src="https://i.imgur.com/xLsDPN0.png" alt="SPARQL Query Soundtrack" width="600"/>
+    <img src="https://i.imgur.com/asO7zU9.png" alt="SPARQL Query Soundtrack" width="600"/>
 </details>
 </details>
 
