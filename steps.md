@@ -246,19 +246,67 @@ And 0 results, so we created new triples:
 </details>
 
 <details>
-  <summary style="color:purple"><strong>Main Section 3</strong> (click to expand)</summary>
+  <summary style="color:purple"><strong>New categories:Genre, Composers & Performers</strong> (click to expand)</summary>
 
-  Contenuto principale 3 qui.
+1)	We asked both ChatGPT and Gemini for information about the Bridgerton soundtrack, including its music genre, composer, and performers
+<img
+<img
+2)	Next, we used YASGUI to query the DBpedia knowledge graph for available information on the music genre (classical), composer (Kris Bowers), and performers (Vitamin String Quartet). However, all the queries returned zero results.
+<img
+<img
+<img
+3)	We presented both ChatGPT and Gemini with an example of a SPARQL CONSTRUCT query that links ‘Bridgerton’ to one of its themes.
+<img
+<img
+4)	Next, starting from one of the identified ‘gaps,’ we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT
+5)	Finally, we entered both new triples into Yasgui.
+You may find in the following sub-sections all the 3 procedures, respectively for genre (classical), composer and performers.
 
-  <details>
-    <summary>Subsection 3.1 (click to expand)</summary>
-    Contenuto della sottosezione 3.1.
+<details>
+    <summary>Soundtrack genre (click to expand)</summary>
+We asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. <br>
+  ChatGPT:
+  <img>
+  Gemini:
+  <img>
+  <img>
+Subsequently, we entered both generated triples into Yasgui:
+  <img>
+  <img>
+  <img>
+  <img>
   </details>
-
+ <details>
+    <summary>Soundtrack composer (click to expand)</summary>
+For the soundtrack composer the same procedure was followed: we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. The new triple is created in order to fill the gap concerning the soundtrack’s producer ‘Kris Bowers’.<br>
+  ChatGPT:
+  <img>
+  <img>
+  <img>
+  <img>
+  Gemini:
+  <img>
+  <img>
+  <img>
+  <img>
+  <img>
+ </details>
   <details>
-    <summary>Subsection 3.2 (click to expand)</summary>
-    Contenuto della sottosezione 3.2.
-  </details>
+    <summary>Soundtrack Performers (click to expand)</summary>
+    The same procedure was adopted for what concerns the performers ‘Vitamin String Qartet’. <br>
+    ChatGPT:
+    <img>
+    <img>
+    <img>
+    <img>
+    <img>
+    Gemini:
+    <img>
+    <img>
+    <img>
+    <img>
+    <img>
+     </details>
 
 </details>
 
