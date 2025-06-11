@@ -107,8 +107,9 @@ We used three prompting strategies:
 <br>
 
   We critically evaluated LLM outputs by checking <strong>query correctness</strong>  using a SPARQL endpoint (e.g. <a href="https://dbpedia.org/sparql" target="_blank" rel="noopener noreferrer">DBpedia SPARQL interface</a>, <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>
-). We noticed that both LLMs had strong understanding of <strong> RDF, RDFS, OWL, SPARQL</strong>, and semantic modeling practices. They are familiar with <strong>Linked Data vocabularies</strong> (e.g., DBpedia, FOAF, etc.) and understand how to <strong>model new triples</strong> or propose schema extensions using correct RDF syntax. 
-<br>
+). We noticed that both LLMs had strong understanding of <strong> RDF, RDFS, OWL, SPARQL</strong>, and semantic modeling practices. They are familiar with <strong>Linked Data vocabularies</strong> (e.g., DBpedia, FOAF, etc.) and understand how to <strong>model new triples</strong> or propose schema extensions using correct RDF syntax. <br>
+When given examples they corrected and trained themselves to give the following tasks in the already corrected form. The same thing happened when they were asked to think step by step. While at first, they gave more concise and direct answers, after asking them to do chain-of-thought they repeated this process also in the following tasks. <br>
+They both remembered and chained context, which helps when we asked: "Now create a triple for 'taboos' like you did for 'emotional struggles'". They can track previous ontology examples and maintain vocabulary consistency. <br>
 This project demonstrated how SPARQL and LLMs can work in synergy to enrich and interrogate a cultural knowledge graph. From querying existing data to proposing new semantic connections, we applied best practices in <strong>prompt engineering, ontology alignment</strong>, and <strong>RDF modeling</strong>, all while evaluating the reliability and expressiveness of different language models.
 <br><br>
 </details>
