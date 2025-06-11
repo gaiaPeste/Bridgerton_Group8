@@ -177,9 +177,63 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
   <summary style="color:purple"><strong>New Category: Theme</strong> (click to expand)</summary>
 
   We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
-  <img src="https://i.imgur.com/C16WlTH.png" alt="SPARQL Query Caption" width="600"/> 
+  <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://imgur.com/PL60T92.png" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://imgur.com/i0kFmbJ" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://imgur.com/h0K9enR" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://imgur.com/zW1MwMF" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://imgur.com/wjaHKEl" alt="SPARQL Query Theme" width="600"/>
+Looking at the list provided by ChatGPT we decided to investigate more in depth 3 themes: personal desire, emotional struggle and taboos. <br>
+So, we asked the LLMs to create queries for DBpedia to check if the theme was explored in the KG.<br>
+ChatGPT:
+<img src="https://imgur.com/scl4TOA" alt="SPARQL Query Theme" width="600"/>
+Gemini:
+<img src="https://imgur.com/Bbq7RVK" alt="SPARQL Query Theme" width="600"/>
+So, we provided the example given by ChatGPT to show the format we wanted to have. 
+<img src="https://imgur.com/7zoOCl0" alt="SPARQL Query Theme" width="600"/>
+This format was right, but we needed to add missing prefixes. <br>
+We added:<strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction } and the prefix, giving the LLM this example in order to understand how to use the keyword OPTIONAL.  <br>
+Optional matching provides this facility: if the optional part does not match, it creates no bindings but does not eliminate the solution.
+<img src="https://imgur.com/hKNtX01" alt="SPARQL Query Theme" width="600"/>
+Both queries gave 0 results, so we created a new triple in turtle giving the LLMs an example of how to use the keyword CONSTRUCT. <br>
+<img src="https://imgur.com/qJRLS1C" alt="SPARQL Query Theme" width="600"/>
+We obtained this results:<br>
+ChatGPT:
+<img src="https://imgur.com/78f4OcK" alt="SPARQL Query Theme" width="600"/>
+We asked the LLM to think step by step, in order to show the process of creation of the triple. <br>
+ChatGPT:
+<img src="https://imgur.com/4is6qM3" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/T2OqjET" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/YDTLBzs" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/IulWYRv" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/vceb9VS" alt="SPARQL Query Theme" width="600"/>
+Gemini
+<img src="https://imgur.com/rGEbrpx" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/gPRC5Lk " alt="SPARQL Query Theme" width="600"/>
+Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
+ChatGPT:
+<img src="https://imgur.com/HR9px5D" alt="SPARQL Query Theme" width="600"/>
+Gemini:
+<img src="https://imgur.com/CPn9Gps" alt="SPARQL Query Theme" width="600"/> 
+These queries gave 0 results, so we created a new triple. 
+<img src="https://imgur.com/yWHGUAA" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/5ai8LsE" alt="SPARQL Query Theme" width="600"/> 
+<img src="https://i.imgur.com/tWQtXEc.png" alt="SPARQL Query Theme" width="600"/>
+We continued to explore the theme of taboos: 
+<img src="https://imgur.com/dcJCVz0 " alt="SPARQL Query Theme" width="600"/> 
+<img src="https://imgur.com/7oAm6gs" alt="SPARQL Query Theme" width="600"/> 
+We trained GEMINI to use UNION giving an example: 
+<img src="https://imgur.com/xJvXzTO" alt="SPARQL Query Theme" width="600"/>
+Result:
+<img src="https://i.imgur.com/DgYC43Z.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/jilCoAt" alt="SPARQL Query Theme" width="600"/>
+We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
+And 0 results, so we created new triples: 
+<img src="https://imgur.com/48LNN5o" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/0On3Xti" alt="SPARQL Query Theme" width="600"/>
+<img src="https://imgur.com/hID8raA" alt="SPARQL Query Theme" width="600"/> 
 
-  <details>
+<details>
     <summary>Subsection 2.1 (click to expand)</summary>
     Contenuto della sottosezione 2.1.
   </details>
