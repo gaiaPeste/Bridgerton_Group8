@@ -77,7 +77,7 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/OTgOXat.png" alt="SPARQL Query Episodes" width="600"/>
   <img src="https://i.imgur.com/sXZq5Id.png" alt="SPARQL Query Episodes" width="600"/>
   <br>
-  <strong>SEASONS</strong>
+  <strong>SEASONS</strong> <br>
   The same procedure has been applied to the data concerning the number of seasons, following the same approach used for the number of episodes. The steps will be showed in the same order: <br>
 1) 
 <img src="https://i.imgur.com/wu4LZOI.png" alt="SPARQL Query Seasons" width="600"/> <br>
@@ -132,7 +132,7 @@ Following this, we proceeded to run the CONSTRUCT queries provided by both LLMs.
   <img src="https://i.imgur.com/Ko5a1Mb.png" alt="SPARQL Query Starring" width="600"/>
   <br>
 While ChatGPT created a final response including both new and original resources, Gemini only produced triples for the new resources. <br>
-<strong><em>dbp:caption</em></strong>
+<strong><em>dbp:caption</em></strong> <br>
 We followed the same procedure for <em>dbp:caption</em>. <br>
 ChatGPT:
 <img src="https://i.imgur.com/iukaHfz.png" alt="SPARQL Query Caption" width="600"/>
