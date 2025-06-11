@@ -169,14 +169,11 @@ Gemini:
 <img src="https://i.imgur.com/XQjul3r.png" alt="SPARQL Query Caption" width="600"/>
 <br>
 In this case GEMINI needed more directions than ChatGPT to realize an adequate query. 
-  
   </details>
-  <details>
-  <summary style:"color:purple"><strong>New Category:Theme</strong> (click to expand)</summary>
-
-  Contenuto principale qui.
-
-  <details>
+ <details>
+  <summary style="color:purple"><strong>First steps: update and integration</strong> (click to expand)</summary>
+ <details>
+    <summary><strong>Update: Episodes and Seasons </strong>(click to expand)</summary>
 
 </details>
 
