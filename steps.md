@@ -176,7 +176,8 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
 <details>
   <summary style="color:purple"><strong>New Category: Theme</strong> (click to expand)</summary>
 
-  Contenuto principale 2 qui.
+  We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
+  <img src="https://i.imgur.com/C16WlTH.png" alt="SPARQL Query Caption" width="600"/> 
 
   <details>
     <summary>Subsection 2.1 (click to expand)</summary>
