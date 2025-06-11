@@ -175,8 +175,8 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
 
 <details>
   <summary style="color:purple"><strong>New Category: Theme</strong></summary>
-
-  We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
+  <strong>Exploring Main Themes with LLMs</strong> <br>
+ We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
   <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://imgur.com/PL60T92.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6En73sh.png" alt="SPARQL Query Theme" width="600"/>
@@ -184,6 +184,9 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
   <img src="https://i.imgur.com/9cSCHj3.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6q2OJP9.png" alt="SPARQL Query Theme" width="600"/>
 Looking at the list provided by ChatGPT we decided to investigate more in depth 3 themes: personal desire, emotional struggle and taboos. <br>
+</details>
+   <details>
+    <summary>Querying DBpedia:"Personal Desire"</summary>
 So, we asked the LLMs to create queries for DBpedia to check if the theme was explored in the KG.<br>
 ChatGPT:
 <img src="https://i.imgur.com/HbQXk5A.png" alt="SPARQL Query Theme" width="600"/>
@@ -209,6 +212,9 @@ ChatGPT:
 <img src="https://i.imgur.com/APUnun6.png" alt="SPARQL Query Theme" width="600"/>
 Gemini
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
+      </details>
+      <details>
+    <summary>Querying DBpedia: "Emotional Struggles"</summary>
 Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
 <img src="https://i.imgur.com/kxBycc6.png" alt="SPARQL Query Theme" width="600"/> 
 ChatGPT:
@@ -221,6 +227,9 @@ ChatGPT:
 <img src="https://i.imgur.com/SoKme4B.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
+         </details>
+          <details>
+          <summary>Querying DBpedia: "Taboos"</summary>
 We continued to explore the theme of taboos: 
 <img src="https://i.imgur.com/khL97eH.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/aulLXkN.png" alt="SPARQL Query Theme" width="600"/>
@@ -234,16 +243,7 @@ And 0 results, so we created new triples:
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
-<details>
-    <summary>Subsection 2.1</summary>
-    Contenuto della sottosezione 2.1.
-  </details>
-
-  <details>
-    <summary>Subsection 2.2</summary>
-    Contenuto della sottosezione 2.2.
-  </details>
-
+ </details>
 </details>
 
 <details>
