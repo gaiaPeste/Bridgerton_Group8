@@ -12,6 +12,7 @@
 <br>
 
 # Methodological Steps
+
 <details>
   <summary style="color:purple"><strong>First steps: update and integration</strong> (click to expand)</summary>
  <details>
@@ -34,7 +35,7 @@ First, the correction of the number of episodes will be presented, showing the r
   <img src="https://i.imgur.com/jiBuE5t.png" alt="Yasgui Episodes" width="600"/> 
 </ol>
 <ol>
-  2) The wrong value was immediately corrected through the construction of new RDFs triples, obtained through chain-of-thought prompting:
+ 2) The wrong value was immediately corrected through the construction of new RDFs triples, obtained through chain-of-thought prompting:
    <img src="https://i.imgur.com/6GDhFcT.png" alt="SPARQL Query Episodes" width="600"/> 
   ChatGPT:
    <img src="https://i.imgur.com/EXmMcby.png" alt="SPARQL Query Episodes" width="600"/> 
@@ -44,7 +45,7 @@ First, the correction of the number of episodes will be presented, showing the r
    <img src="https://i.imgur.com/lXm4sZT.png" alt="SPARQL Query Episodes" width="600"/> 
    <img src="https://i.imgur.com/CiKbkFL.png" alt="SPARQL Query Episodes" width="600"/> 
    </ol>
-<ol>
+   <ol>
   3) Then, the <em>dbo:numberOfEpisodes</em> and <em>dbp:numEpisodes</em> were compared through another query:
   <img src="https://i.imgur.com/tvugGKz.png" alt="SPARQL Query Episodes" width="600"/> 
   ChatGPT:
@@ -54,7 +55,7 @@ First, the correction of the number of episodes will be presented, showing the r
    <img src="https://i.imgur.com/8uqzUln.png" alt="SPARQL Query Episodes" width="600"/>
    <img src="https://i.imgur.com/G7tDGwZ.png" alt="SPARQL Query Episodes" width="600"/>
   </ol>
-  <ol>
+   <ol>
     4)	Finally also the <em>dbp:numEpisodes</em> was corrected. <br>
     ChatGPT (with a zero-shot prompt): 
     <img src="https://i.imgur.com/dpOnemL.png" alt="SPARQL Query Episodes" width="600"/>
@@ -65,7 +66,7 @@ First, the correction of the number of episodes will be presented, showing the r
     <img src="https://i.imgur.com/6kHNrWE.png" alt="SPARQL Query Episodes" width="600"/>
     <img src="https://i.imgur.com/KeJ8yyJ.png" alt="SPARQL Query Episodes" width="600"/>
  </ol>
- BONUS: in the knowledge graph there was also another dbp related to episodes, which was wrong too. So also the <em>dbp:episodes</em> was corrected as follows, with few-shot prompting.
+BONUS: in the knowledge graph there was also another dbp related to episodes, which was wrong too. So also the <em>dbp:episodes</em> was corrected as follows, with few-shot prompting.
   <img src="https://i.imgur.com/pgxOfS0.png" alt="SPARQL Query Episodes" width="600"/>
   ChatGPT:
   <img src="https://i.imgur.com/Nyx4aks.png" alt="SPARQL Query Episodes" width="600"/>
@@ -109,15 +110,14 @@ Gemini
 <img src="https://i.imgur.com/NaPLpnw.png" alt="SPARQL Query Seasons" width="600"/>
 
   </details>
-  
-   <details>
+  <details>
     <summary><strong>Integration: Starring, Caption and Start</strong> (click to expand)</summary>
 Subsequently, we identified other categories that required integration, specifically <em>dbo:starring</em>, <em>dbp:caption</em> and <em>dbp:start</em>.
 In these cases, the LLMs were prompted to generate CONSTRUCT queries aimed at adding resources to the corresponding categories, which were then executed using <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>. Both models emphasized that, in order to effectively modify the knowledge graph, INSERT DATA statements would have been required. Therefore, the RDF triples presented here are intended as suggestions that can be exported or uploaded to the graph accordingly. <br>
 <strong><em>dbo:starring</em></strong> <br>
  In this case, both LLMs were asked to generate a CONSTRUCT query to add new resources to the class. <br> NOTE: ChatGPT autonomously recommended verifying which resources were already included in the class. Although its proposed query made use of the OPTIONAL keyword—thereby inherently avoiding the addition of duplicate resources, we nonetheless executed the supplementary verification query to fully adhere to the model's suggestion.
 Following this, we proceeded to run the CONSTRUCT queries provided by both LLMs. <br>
-  ChatGPT:
+    ChatGPT:
   <img src="https://i.imgur.com/y968vDM.png" alt="SPARQL Query Starring" width="600"/>
   <img src="https://i.imgur.com/sVUlNyj.png" alt="SPARQL Query Starring" width="600"/>
   <img src="https://i.imgur.com/lXacW7z.png" alt="SPARQL Query Starring" width="600"/>
@@ -134,7 +134,7 @@ Following this, we proceeded to run the CONSTRUCT queries provided by both LLMs.
 While ChatGPT created a final response including both new and original resources, Gemini only produced triples for the new resources. <br>
 <strong><em>dbp:caption</em></strong> <br>
 We followed the same procedure for <em>dbp:caption</em>. <br>
-ChatGPT:
+    ChatGPT:
 <img src="https://i.imgur.com/iukaHfz.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/abkzRNL.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/III8HHS.png" alt="SPARQL Query Caption" width="600"/>
@@ -157,7 +157,7 @@ ChatGPT:
 Gemini:
 <img src="https://i.imgur.com/qPQRZAR.png" alt="Sparql Query Start" width="600"/> <br>
 After this verification, we asked to the LLMs for the usual CONSTRUCT query that we then executed on YASGUI. <br>
-ChatGPT:
+    ChatGPT:
 <img src="https://i.imgur.com/t9opllM.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/oW3lcqo.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/tk2xuxJ.png" alt="SPARQL Query Caption" width="600"/>
@@ -170,7 +170,10 @@ Gemini:
 <br>
 In this case GEMINI needed more directions than ChatGPT to realize an adequate query. 
   </details>
- <details>
+
+</details>
+
+<details>
   <summary>Main Section 2 (click to expand)</summary>
 
   Contenuto principale 2 qui.
@@ -185,9 +188,41 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
     Contenuto della sottosezione 2.2.
   </details>
 
+</details>
+
+<details>
+  <summary>Main Section 3 (click to expand)</summary>
+
+  Contenuto principale 3 qui.
+
+  <details>
+    <summary>Subsection 3.1 (click to expand)</summary>
+    Contenuto della sottosezione 3.1.
+  </details>
+
+  <details>
+    <summary>Subsection 3.2 (click to expand)</summary>
+    Contenuto della sottosezione 3.2.
+  </details>
+
+</details>
 
 
-<br><br>
+
+
+ 
+
+ 
+
+   
+
+
+  
+   
+  
+
+
+ 
 
  
   
