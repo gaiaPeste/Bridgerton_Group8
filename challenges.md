@@ -15,4 +15,16 @@
 # Challenges and LLMs Differences
 
 ## Challenges
+WIKIDATA VS DBPEDIA <br>
+One of the main challenges we faced during the project was deciding between two major knowledge bases: Wikidata (https://www.wikidata.org/wiki/Q85748936) and DBpedia. (https://dbpedia.org/page/Bridgerton) 
+Both offer structured semantic data, but they differ significantly in terms of ontology, update frequency (how often the data is refreshed or revised), and level of detail. 
+Wikidata provides a more dynamic and community-curated dataset with flexible properties, while DBpedia relies on a more rigid and formally defined ontology extracted from Wikipedia. 
+Since our task was to identify gaps and build RDF triples, we ultimately chose DBpedia. This decision was driven by the fact that DBpedia’s fixed ontology and structured format made it easier to detect inconsistencies and missing information.
+
+CHATGPT VS GEMINI 
+
+The queries that Gemini generates use a syntax or format that the query editor does not recognize or support. This means when you try to run these queries in the editor, they produce errors or don’t work as expected. This incompatibility could be due to differences in query language versions, supported features, or syntax rules between Gemini and the query editor.
+……..
+(DA COMPLETARE)
+
 ## LLMs Differences 
