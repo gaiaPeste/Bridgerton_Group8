@@ -249,11 +249,11 @@ Result:
 We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
 And 0 results:
 <img src="https://i.imgur.com/BPs7Cnt.png" alt="SPARQL Query Theme" width="600"/>
-So we created new triples: 
-<img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
+So we instructed the LLMs to create new triples based on the previous examples. These were the results.
 ChatGPT:
-<img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
+<img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
+<img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/QQztP2O.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
