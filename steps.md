@@ -179,58 +179,58 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
   We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
   <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://imgur.com/PL60T92.png" alt="SPARQL Query Theme" width="600"/>
-  <img src="https://i.imgur.com/GgJ4xnU.png" alt="SPARQL Query Theme" width="600"/>
-  <img src="https://i.imgur.com/4BIe5R9.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6En73sh.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/koegva6.png" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://i.imgur.com/9cSCHj3.png" alt="SPARQL Query Theme" width="600"/>
+  <img src="https://i.imgur.com/6q2OJP9.png" alt="SPARQL Query Theme" width="600"/>
 Looking at the list provided by ChatGPT we decided to investigate more in depth 3 themes: personal desire, emotional struggle and taboos. <br>
 So, we asked the LLMs to create queries for DBpedia to check if the theme was explored in the KG.<br>
 ChatGPT:
-<img src="https://i.imgur.com/9cSCHj3.png" alt="SPARQL Query Theme" width="600"/>
-Gemini:
-<img src="https://i.imgur.com/6q2OJP9.png" alt="SPARQL Query Theme" width="600"/>
-So, we provided the example given by ChatGPT to show the format we wanted to have. 
 <img src="https://i.imgur.com/HbQXk5A.png" alt="SPARQL Query Theme" width="600"/>
+Gemini:
+<img src="https://i.imgur.com/qMzdujl.png" alt="SPARQL Query Theme" width="600"/>
+So, we provided the example given by ChatGPT to show the format we wanted to have. 
+<img src="https://i.imgur.com/p7hIyiJ.png" alt="SPARQL Query Theme" width="600"/>
 This format was right, but we needed to add missing prefixes. <br>
 We added:<strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction } and the prefix, giving the LLM this example in order to understand how to use the keyword OPTIONAL.  <br>
 Optional matching provides this facility: if the optional part does not match, it creates no bindings but does not eliminate the solution.
-<img src="https://i.imgur.com/qMzdujl.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://i.imgur.com/vLMojfG.png" alt="SPARQL Query Theme" width="600"/>
 Both queries gave 0 results, so we created a new triple in turtle giving the LLMs an example of how to use the keyword CONSTRUCT. <br>
-<img src="https://i.imgur.com/p7hIyiJ.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://i.imgur.com/qK9z3gE.png" alt="SPARQL Query Theme" width="600"/>
 We obtained this results:<br>
 ChatGPT:
-<img src="https://i.imgur.com/vLMojfG.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://i.imgur.com/Ey75WZJ.png" alt="SPARQL Query Theme" width="600"/>
 We asked the LLM to think step by step, in order to show the process of creation of the triple. <br>
 ChatGPT:
-<img src="https://i.imgur.com/qK9z3gE.png" alt="SPARQL Query Theme" width="600"/>
-<img src="https://i.imgur.com/Ey75WZJ.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/xjuhJGx.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/HuGE6Mv.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/EpMdrK1.png" alt="SPARQL Query Theme" width="600"/>
-Gemini
 <img src="https://i.imgur.com/GcIQ9VD.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/APUnun6.png" alt="SPARQL Query Theme" width="600"/>
-Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
-ChatGPT:
+Gemini
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
-Gemini:
+Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
 <img src="https://i.imgur.com/kxBycc6.png" alt="SPARQL Query Theme" width="600"/> 
-These queries gave 0 results, so we created a new triple. 
+ChatGPT:
 <img src="https://i.imgur.com/w6fk2LW.png" alt="SPARQL Query Theme" width="600"/>
+Gemini:
 <img src="https://i.imgur.com/vq2e4zY.png" alt="SPARQL Query Theme" width="600"/> 
+These queries gave 0 results, so we created a new triple. 
 <img src="https://i.imgur.com/tRhdPOl.png" alt="SPARQL Query Theme" width="600"/>
-We continued to explore the theme of taboos: 
+ChatGPT:
 <img src="https://i.imgur.com/SoKme4B.png" alt="SPARQL Query Theme" width="600"/> 
+Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
-We trained GEMINI to use UNION giving an example: 
+We continued to explore the theme of taboos: 
 <img src="https://i.imgur.com/khL97eH.png" alt="SPARQL Query Theme" width="600"/>
-Result:
 <img src="https://i.imgur.com/aulLXkN.png" alt="SPARQL Query Theme" width="600"/>
+We trained GEMINI to use UNION giving an example: 
 <img src="https://i.imgur.com/RUo7NOv.png" alt="SPARQL Query Theme" width="600"/>
-We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
-And 0 results, so we created new triples: 
+Result:
 <img src="https://i.imgur.com/KaCbCnw.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/JdvXQZ0.png" alt="SPARQL Query Theme" width="600"/>
+We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
+And 0 results, so we created new triples: 
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
