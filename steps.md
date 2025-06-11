@@ -252,7 +252,7 @@ And 0 results, so we created new triples:
 <img>
 <img>
   <ol>
-2)	Next, we used <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a> to query the DBpedia knowledge graph for available information on the music genre (classical), composer (Kris Bowers), and performers (Vitamin String Quartet). However, all the queries returned zero results.</ol>
+2)	Next, we used <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a> to query the <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">dbr:Bridgerton</a>, so to have a general idea of what we were working  for available information on the music genre (classical), composer (Kris Bowers), and performers (Vitamin String Quartet). However, all the queries returned zero results.</ol>
 <img>
 <img>
 <img>
