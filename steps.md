@@ -15,14 +15,14 @@
 
 <details>
   <summary style="color:purple"><strong>First steps: update and integration</strong> </summary>
- <details>
+<details>
     <summary><strong>Update: Episodes and Seasons </strong></summary>
-
-These initial queries have the aim to correct information related to the <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em>. In  both cases the values are wrong: the number of seasons should be 3, but it is represented as <em>xsd:2</em>, and the number of episodes should be 24, but it is represented as <em>xsd:16</em>. 
+  
+   These initial queries have the aim to correct information related to the <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em>. In  both cases the values are wrong: the number of seasons should be 3, but it is represented as <em>xsd:2</em>, and the number of episodes should be 24, but it is represented as <em>xsd:16</em>. 
 <br>
 Furthermore both <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em> are associated with related DBpedia properties, <em>dbps: dbp:numSeasons and dbp:numEpisodes</em>, which are also incorrect. The procedure adopted to solve this issue is the same for both situations. 
 <br>
-First, the correction of the number of episodes will be presented, showing the results provided by both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>. Then the situation about the number of seasons will be addressed.<br>  
+First, the correction of the number of episodes will be presented, showing the results provided by both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>. Then the situation about the number of seasons will be addressed.<br> 
 <strong>EPISODES</strong>
 <ol>
   1) First of all the actual <em>dbo:numberOfEpisodes</em> value was checked through an initial query. A zero-shot prompt was proposed to both LLMs as follows. Here are the results:
@@ -45,7 +45,7 @@ First, the correction of the number of episodes will be presented, showing the r
    <img src="https://i.imgur.com/lXm4sZT.png" alt="SPARQL Query Episodes" width="600"/> 
    <img src="https://i.imgur.com/CiKbkFL.png" alt="SPARQL Query Episodes" width="600"/> 
    </ol>
-   <ol>
+    <ol>
   3) Then, the <em>dbo:numberOfEpisodes</em> and <em>dbp:numEpisodes</em> were compared through another query:
   <img src="https://i.imgur.com/tvugGKz.png" alt="SPARQL Query Episodes" width="600"/> 
   ChatGPT:
@@ -66,7 +66,7 @@ First, the correction of the number of episodes will be presented, showing the r
     <img src="https://i.imgur.com/6kHNrWE.png" alt="SPARQL Query Episodes" width="600"/>
     <img src="https://i.imgur.com/KeJ8yyJ.png" alt="SPARQL Query Episodes" width="600"/>
  </ol>
-BONUS: in the knowledge graph there was also another dbp related to episodes, which was wrong too. So also the <em>dbp:episodes</em> was corrected as follows, with few-shot prompting.
+ BONUS: in the knowledge graph there was also another dbp related to episodes, which was wrong too. So also the <em>dbp:episodes</em> was corrected as follows, with few-shot prompting.
   <img src="https://i.imgur.com/pgxOfS0.png" alt="SPARQL Query Episodes" width="600"/>
   ChatGPT:
   <img src="https://i.imgur.com/Nyx4aks.png" alt="SPARQL Query Episodes" width="600"/>
@@ -108,10 +108,10 @@ ChatGPT
 <img src="https://i.imgur.com/vyGzfpr.png" alt="SPARQL Query Seasons" width="600"/>
 Gemini
 <img src="https://i.imgur.com/NaPLpnw.png" alt="SPARQL Query Seasons" width="600"/>
-
-  </details>
-  <details>
+</details>
+ <details>
     <summary><strong>Integration: Starring, Caption and Start</strong></summary>
+
 Subsequently, we identified other categories that required integration, specifically <em>dbo:starring</em>, <em>dbp:caption</em> and <em>dbp:start</em>.
 In these cases, the LLMs were prompted to generate CONSTRUCT queries aimed at adding resources to the corresponding categories, which were then executed using <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>. Both models emphasized that, in order to effectively modify the knowledge graph, INSERT DATA statements would have been required. Therefore, the RDF triples presented here are intended as suggestions that can be exported or uploaded to the graph accordingly. <br>
 <strong><em>dbo:starring</em></strong> <br>
@@ -171,11 +171,12 @@ Gemini:
 In this case GEMINI needed more directions than ChatGPT to realize an adequate query. 
   </details>
 
-</details>
+ </details>
 
 <details>
-  <summary style="color:purple"><strong>New Category: Theme</strong></summary>
-  <strong>Exploring Main Themes with LLMs</strong> <br>
+ <summary style="color:purple"><strong>New Category: Theme</strong></summary>
+
+ <strong>Exploring Main Themes with LLMs</strong> <br>
  We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
   <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://imgur.com/PL60T92.png" alt="SPARQL Query Theme" width="600"/>
@@ -184,8 +185,8 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
   <img src="https://i.imgur.com/9cSCHj3.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6q2OJP9.png" alt="SPARQL Query Theme" width="600"/>
 Looking at the list provided by ChatGPT we decided to investigate more in depth 3 themes: personal desire, emotional struggle and taboos. <br>
-</details>
-   <details>
+
+ <details>
     <summary>Querying DBpedia:"Personal Desire"</summary>
 So, we asked the LLMs to create queries for DBpedia to check if the theme was explored in the KG.<br>
 ChatGPT:
@@ -213,8 +214,9 @@ ChatGPT:
 Gemini
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
       </details>
-         <details>
-            <summary>Querying DBpedia: "Emotional Struggles"</summary>
+
+ <details>
+    <summary>Querying DBpedia: "Emotional Struggles"</summary>
 Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
 <img src="https://i.imgur.com/kxBycc6.png" alt="SPARQL Query Theme" width="600"/> 
 ChatGPT:
@@ -227,9 +229,10 @@ ChatGPT:
 <img src="https://i.imgur.com/SoKme4B.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
-         </details>
-            <details>
-               <summary>Querying DBpedia: "Taboos"</summary>
+  </details>
+
+  <details>
+    <summary>Querying DBpedia: "Taboos"</summary>
 We continued to explore the theme of taboos: 
 <img src="https://i.imgur.com/khL97eH.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/aulLXkN.png" alt="SPARQL Query Theme" width="600"/>
@@ -243,13 +246,14 @@ And 0 results, so we created new triples:
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
+  </details>
 
-            </details>
-
+</details>
 
 <details>
   <summary style="color:purple"><strong>New categories: Genre, Composers & Performers</strong></summary>
-<ol>
+
+ <ol>
 1)	We asked both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> for information about the Bridgerton soundtrack, including its music genre, composer, and performers </ol>
 <img>
 <img>
@@ -268,7 +272,7 @@ And 0 results, so we created new triples:
 5)	Finally, we entered both new triples into Yasgui.</ol>
 You may find in the following sub-sections all the 3 procedures, respectively for genre (classical), composer and performers.
 
-<details>
+  <details>
     <summary>Soundtrack genre</summary>
 We asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. <br>
   ChatGPT:
@@ -282,8 +286,9 @@ Subsequently, we entered both generated triples into Yasgui:
   <img>
   <img>
   </details>
- <details>
-    <summary>Soundtrack composer</summary>
+
+  <details>
+   <summary>Soundtrack composer</summary>
 For the soundtrack composer the same procedure was followed: we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. The new triple is created in order to fill the gap concerning the soundtrack’s producer ‘Kris Bowers’.<br>
   ChatGPT:
   <img>
@@ -296,9 +301,9 @@ For the soundtrack composer the same procedure was followed: we asked both ChatG
   <img>
   <img>
   <img>
- </details>
+  </details>
   <details>
-    <summary>Soundtrack Performers</summary>
+  <summary>Soundtrack Performers</summary>
     The same procedure was adopted for what concerns the performers ‘Vitamin String Qartet’. <br>
     ChatGPT:
     <img>
@@ -312,10 +317,39 @@ For the soundtrack composer the same procedure was followed: we asked both ChatG
     <img>
     <img>
     <img>
-     </details>
-
+</details>
 </details>
 
+
+
+    
+
+
+   
+
+
+  
+
+  
+   
+      
+            
+        
+               
+           
+
+
+
+  
+
+
+
+    
+  
+    
+ 
+    
+    
 
 
 
