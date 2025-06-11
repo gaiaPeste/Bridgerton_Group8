@@ -171,6 +171,12 @@ Gemini:
 In this case GEMINI needed more directions than ChatGPT to realize an adequate query. 
   
   </details>
+  <details>
+  <summary style:"color:purple"><strong>New Category:Theme</strong> (click to expand)</summary>
+
+  Contenuto principale qui.
+
+  <details>
 
 </details>
 
