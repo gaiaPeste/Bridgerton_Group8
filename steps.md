@@ -14,9 +14,9 @@
 # Methodological Steps
 
 <details>
-  <summary style="color:purple"><strong>First steps: update and integration</strong> (click to expand)</summary>
+  <summary style="color:purple"><strong>First steps: update and integration</strong> </summary>
  <details>
-    <summary><strong>Update: Episodes and Seasons </strong>(click to expand)</summary>
+    <summary><strong>Update: Episodes and Seasons </strong></summary>
 
 These initial queries have the aim to correct information related to the <em>dbo:numberOfSeasons</em> and <em>dbo:numberOfEpisodes</em>. In  both cases the values are wrong: the number of seasons should be 3, but it is represented as <em>xsd:2</em>, and the number of episodes should be 24, but it is represented as <em>xsd:16</em>. 
 <br>
@@ -246,20 +246,24 @@ And 0 results, so we created new triples:
 </details>
 
 <details>
-  <summary style="color:purple"><strong>New categories:Genre, Composers & Performers</strong> (click to expand)</summary>
-
-1)	We asked both ChatGPT and Gemini for information about the Bridgerton soundtrack, including its music genre, composer, and performers
-<img
-<img
-2)	Next, we used YASGUI to query the DBpedia knowledge graph for available information on the music genre (classical), composer (Kris Bowers), and performers (Vitamin String Quartet). However, all the queries returned zero results.
-<img
-<img
-<img
-3)	We presented both ChatGPT and Gemini with an example of a SPARQL CONSTRUCT query that links ‘Bridgerton’ to one of its themes.
-<img
-<img
-4)	Next, starting from one of the identified ‘gaps,’ we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT
-5)	Finally, we entered both new triples into Yasgui.
+  <summary style="color:purple"><strong>New categories: Genre, Composers & Performers</strong> (click to expand)</summary>
+<ol>
+1)	We asked both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> for information about the Bridgerton soundtrack, including its music genre, composer, and performers </ol>
+<img>
+<img>
+  <ol>
+2)	Next, we used Yasgui to query the DBpedia knowledge graph for available information on the music genre (classical), composer (Kris Bowers), and performers (Vitamin String Quartet). However, all the queries returned zero results.</ol>
+<img>
+<img>
+<img>
+  <ol>
+3)	We presented both ChatGPT and Gemini with an example of a SPARQL CONSTRUCT query that links ‘Bridgerton’ to one of its themes.</ol>
+<img>
+<img>
+  <ol>
+4)	Next, starting from one of the identified ‘gaps,’ we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT</ol>
+  <ol>
+5)	Finally, we entered both new triples into Yasgui.</ol>
 You may find in the following sub-sections all the 3 procedures, respectively for genre (classical), composer and performers.
 
 <details>
