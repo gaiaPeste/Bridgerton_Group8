@@ -76,40 +76,40 @@ After having explored the vocabulary related to our knowledge graph, we decided 
 <details>
   <summary>🧪 <strong>2. General Methodology</strong></summary>
   <br><br>
-  In this project, we explored and enriched a knowledge graph (KG) about the TV series Bridgerton by combining SPARQL querying techniques with the assistance of large language models (LLMs), specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>
-Our goal was to model and assess whether certain concepts (e.g., general information and knowledge about themes and the soundtrack) are represented in the graph, and where necessary, propose new triples.
+  In this project, we explored and enriched a <strong>knowledge graph (KG)</strong> about the TV series Bridgerton by combining <strong>SPARQL querying techniques</strong> with the assistance of <strong>large language models (LLMs)</strong>, specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>
+Our goal was to model and assess whether certain <strong>concepts</strong> (e.g., <em>general information and knowledge about themes and the soundtrack</em>) are represented in the graph, and where necessary, propose new triples.
 <br> 
-After having identified the gap, we studied the DBpedia ontology to identify how concepts like themes, subjects, and categories are currently modeled. We explored the ontologies and identified the concepts (classes and properties) to build queries.
-Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. 
-After having identified the areas that we wanted to explore more in depth, we wrote several SPARQL queries targeting the DBpedia resource for Bridgerton. 
+After having identified the gap, we studied the <strong>DBpedia ontology</strong> to identify how concepts like <em>themes, subjects</em>, and <em>categories</em> are currently modeled. We explored the ontologies and identified the concepts (classes and properties) to build queries.<br>
+Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
+After having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting the DBpedia resource for <em>Bridgerton</em>. 
 In doing so, we applied multiple SPARQL keywords to extract or validate thematic information:
 <ul>
-•	FILTER + REGEX to detect the presence of specific keywords in abstracts</ul>
+•	<strong>FILTER + REGEX</strong> to detect the presence of specific keywords in abstracts</ul>
   <ul>
-•	OPTIONAL to be able to have queries that allow information to be added to the solution where the information is available, but do not reject the solution because some part of the query pattern does not match </ul>
+•	<strong>OPTIONAL</strong> to be able to have queries that allow information to be added to the solution where the information is available, but do not reject the solution because some part of the query pattern does not match </ul>
   <ul>
-•	DISTINCT and LIMIT to refine and control results</ul>
+•	<strong>DISTINCT</strong> and <strong>LIMIT</strong> to refine and control results</ul>
   <ul>
-•	ORDER BY to sort output (used in debugging and display queries)</ul>
+• <strong>ORDER BY</strong> to sort output (used in debugging and display queries)</ul>
   <ul>
-•	UNION to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").</ul>
+•	<strong>UNION</strong>to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").</ul>
 
 <br>
-When existing links were missing or were incorrect, we proposed new conceptual connections using RDF triples. We designed custom RDF triples using SPARQL CONSTRUCT queries to represent new knowledge. So we used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a> to generate these triples, model their structure, and validate whether the vocabulary aligned with <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a>. We also explored how LLMs can help when formal vocabulary is lacking.
+When existing links were missing or were incorrect, we proposed new conceptual connections using RDF triples. We designed custom RDF triples using SPARQL <strong>CONSTRUCT</strong> queries to represent new knowledge. So we used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a> to generate these triples, model their structure, and validate whether the vocabulary aligned with <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a>. We also explored how LLMs can help when formal vocabulary is lacking.
 We used three prompting strategies:
 <ul>
--	Zero-shot: Direct requests (“Can you give me a complete and detailed list of the themes in the Bridgerton TV series?”)</ul>
+-	<strong>Zero-shot</strong>: Direct requests (“Can you give me a complete and detailed list of the themes in the Bridgerton TV series?”)</ul>
 <ul>
--	Few-shot: Providing examples like the personal desire and the emotional struggles triples before asking for a new one on taboos.</ul>
+-	<strong>Few-shot</strong>: Providing examples like the personal desire and the emotional struggles triples before asking for a new one on taboos.</ul>
 <ul>
--	Chain-of-thought: Asking the LLM to think step-by-step before generating a triple (e.g., “Think step-by-step how to model a triple connecting Bridgerton to the concept of emotional struggle”).</ul>
+-	<strong>Chain-of-thought</strong>: Asking the LLM to think step-by-step before generating a triple (e.g., “Think step-by-step how to model a triple connecting Bridgerton to the concept of emotional struggle”).</ul>
 
 <br>
 
-  We critically evaluated LLM outputs by checking query correctness using a SPARQL endpoint (e.g. <a href="https://dbpedia.org/sparql" target="_blank" rel="noopener noreferrer">DBpedia SPARQL interface</a>, <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>
-). We noticed that both LLMs had strong understanding of RDF, RDFS, OWL, SPARQL, and semantic modeling practices. They are familiar with Linked Data vocabularies (e.g., DBpedia, FOAF, etc.) and understand how to model new triples or propose schema extensions using correct RDF syntax. 
+  We critically evaluated LLM outputs by checking <strong>query correctness</strong>  using a SPARQL endpoint (e.g. <a href="https://dbpedia.org/sparql" target="_blank" rel="noopener noreferrer">DBpedia SPARQL interface</a>, <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>
+). We noticed that both LLMs had strong understanding of <strong> RDF, RDFS, OWL, SPARQL</strong>, and semantic modeling practices. They are familiar with <strong>Linked Data vocabularies</strong> (e.g., DBpedia, FOAF, etc.) and understand how to <strong>model new triples</strong> or propose schema extensions using correct RDF syntax. 
 <br>
-This project demonstrated how SPARQL and LLMs can work in synergy to enrich and interrogate a cultural knowledge graph. From querying existing data to proposing new semantic connections, we applied best practices in prompt engineering, ontology alignment, and RDF modeling, all while evaluating the reliability and expressiveness of different language models.
+This project demonstrated how SPARQL and LLMs can work in synergy to enrich and interrogate a cultural knowledge graph. From querying existing data to proposing new semantic connections, we applied best practices in <strong>prompt engineering, ontology alignment</strong>, and <strong>RDF modeling</strong>, all while evaluating the reliability and expressiveness of different language models.
 <br><br>
 </details>
 
