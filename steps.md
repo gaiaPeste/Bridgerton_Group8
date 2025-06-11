@@ -115,10 +115,61 @@ Gemini
 Subsequently, we identified other categories that required integration, specifically <em>dbo:starring</em>, <em>dbp:caption</em> and <em>dbp:start</em>.
 In these cases, the LLMs were prompted to generate CONSTRUCT queries aimed at adding resources to the corresponding categories, which were then executed using <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>. Both models emphasized that, in order to effectively modify the knowledge graph, INSERT DATA statements would have been required. Therefore, the RDF triples presented here are intended as suggestions that can be exported or uploaded to the graph accordingly. <br>
 <strong><em>dbo:starring</em></strong> <br>
-1) As a first step, both LLMs were asked to generate a CONSTRUCT query to add new resources to the class. NOTE: ChatGPT autonomously recommended verifying which resources were already included in the class. Although its proposed query made use of the OPTIONAL keyword—thereby inherently avoiding the addition of duplicate resources, we nonetheless executed the supplementary verification query to fully adhere to the model's suggestion.
-Following this, we proceeded to run the CONSTRUCT queries provided by both LLMs.
-
-    
+ In this case, both LLMs were asked to generate a CONSTRUCT query to add new resources to the class. <br> NOTE: ChatGPT autonomously recommended verifying which resources were already included in the class. Although its proposed query made use of the OPTIONAL keyword—thereby inherently avoiding the addition of duplicate resources, we nonetheless executed the supplementary verification query to fully adhere to the model's suggestion.
+Following this, we proceeded to run the CONSTRUCT queries provided by both LLMs. <br>
+  ChatGPT:
+  <img src="https://i.imgur.com/y968vDM.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/sVUlNyj.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/lXacW7z.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/Pbk7Agz.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/4x14YeE.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/xiQ6tYS.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/KZaqVrz.png" alt="SPARQL Query Starring" width="600"/> 
+  Gemini:
+  <img src="https://i.imgur.com/iukaHfz.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/5oJ51y1.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/7zlA3QL.png" alt="SPARQL Query Starring" width="600"/>
+  <img src="https://i.imgur.com/Ko5a1Mb.png" alt="SPARQL Query Starring" width="600"/>
+  <br>
+While ChatGPT created a final response including both new and original resources, Gemini only produced triples for the new resources. <br>
+<strong><em>dbp:caption</em></strong>
+We followed the same procedure for <em>dbp:caption</em>. <br>
+ChatGPT:
+<img src="https://i.imgur.com/iukaHfz.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/abkzRNL.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/III8HHS.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/nmMGgp4.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/6cROUj8.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/ouAviel.png" alt="SPARQL Query Caption" width="600"/>
+Gemini
+<img src="https://i.imgur.com/4w4gJ8N.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/A8umuXJ.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/vGxsolt.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/0yA665u.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/Xcuzwmy.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/WopT5uU.png" alt="SPARQL Query Caption" width="600"/>
+<br>
+The two LLMs gave the same outputs as before: ChatGPT included all resources, whereas Gemini enlisted only the new ones. <br>
+<strong><em>dbp:start</em></strong> <br>
+In this instance, a preliminary search was requested to verify and retrieve the needed information. In fact, the category dbp:start already contained the launch date of the first and second season, but was missing the date for the third one. So the first step consisted in  checking on both LLMs the missing data: <br>
+ChatGPT:
+<img src="https://i.imgur.com/ycjgekx.png" alt="SPARQL Query Start" width="600"/> 
+Gemini:
+<img src="https://i.imgur.com/qPQRZAR.png" alt="Sparql Query Start" width="600"/> <br>
+After this verification, we asked to the LLMs for the usual CONSTRUCT query that we then executed on YASGUI. <br>
+ChatGPT:
+<img src="https://i.imgur.com/t9opllM.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/oW3lcqo.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/tk2xuxJ.png" alt="SPARQL Query Caption" width="600"/>
+Gemini:
+<img src="https://i.imgur.com/pvnW9Zi.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/GjeLOxE.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/nLj3VKm.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/l13q79w.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/XQjul3r.png" alt="SPARQL Query Caption" width="600"/>
+<br>
+In this case GEMINI needed more directions than ChatGPT to realize an adequate query. 
+  
   </details>
 
 </details>
