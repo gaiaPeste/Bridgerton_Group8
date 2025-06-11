@@ -233,6 +233,7 @@ ChatGPT:
 <img src="https://i.imgur.com/1EVWg14.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
+<img src="https://i.imgur.com/MvGGqP5.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
 
   <details>
@@ -245,13 +246,14 @@ We trained GEMINI to use UNION giving an example:
 Result:
 <img src="https://i.imgur.com/KaCbCnw.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/JdvXQZ0.png" alt="SPARQL Query Theme" width="600"/>
-<img src="https://i.imgur.com/BPs7Cnt.png" alt="SPARQL Query Theme" width="600"/> 
 We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
 And 0 results:
 <img src="https://i.imgur.com/BPs7Cnt.png" alt="SPARQL Query Theme" width="600"/>
 So we created new triples: 
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
+ChatGPT:
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
+Gemini:
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/QQztP2O.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
