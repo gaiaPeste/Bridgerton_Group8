@@ -174,7 +174,7 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
  </details>
 
 <details>
- <summary style="color:purple"><strong>New Category: Theme</strong></summary>
+ <summary style="color:purple"><strong> Themes: Personal Desire, Emotional Struggle & Taboos</strong></summary>
 
  <strong>Exploring Main Themes with LLMs</strong> <br>
  We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
@@ -251,7 +251,7 @@ And 0 results, so we created new triples:
 </details>
 
 <details>
-  <summary style="color:purple"><strong>New categories: Genre, Composers & Performers</strong></summary>
+  <summary style="color:purple"><strong> Soundtrack: Genre, Composer & Performers</strong></summary>
 
  <ol>
 1)	We asked both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> for information about the Bridgerton soundtrack, including its music genre, composer, and performers </ol>
