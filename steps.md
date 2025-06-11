@@ -213,8 +213,8 @@ ChatGPT:
 Gemini
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
       </details>
-      <details>
-    <summary>Querying DBpedia: "Emotional Struggles"</summary>
+         <details>
+            <summary>Querying DBpedia: "Emotional Struggles"</summary>
 Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
 <img src="https://i.imgur.com/kxBycc6.png" alt="SPARQL Query Theme" width="600"/> 
 ChatGPT:
@@ -228,8 +228,8 @@ ChatGPT:
 Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
          </details>
-          <details>
-          <summary>Querying DBpedia: "Taboos"</summary>
+            <details>
+               <summary>Querying DBpedia: "Taboos"</summary>
 We continued to explore the theme of taboos: 
 <img src="https://i.imgur.com/khL97eH.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/aulLXkN.png" alt="SPARQL Query Theme" width="600"/>
@@ -243,8 +243,9 @@ And 0 results, so we created new triples:
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
- </details>
-</details>
+
+            </details>
+
 
 <details>
   <summary style="color:purple"><strong>New categories: Genre, Composers & Performers</strong></summary>
