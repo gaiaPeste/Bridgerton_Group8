@@ -111,7 +111,7 @@ Gemini
 
   </details>
   <details>
-    <summary><strong>Integration: Starring, Caption and Start</strong> (click to expand)</summary>
+    <summary><strong>Integration: Starring, Caption and Start</strong></summary>
 Subsequently, we identified other categories that required integration, specifically <em>dbo:starring</em>, <em>dbp:caption</em> and <em>dbp:start</em>.
 In these cases, the LLMs were prompted to generate CONSTRUCT queries aimed at adding resources to the corresponding categories, which were then executed using <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>. Both models emphasized that, in order to effectively modify the knowledge graph, INSERT DATA statements would have been required. Therefore, the RDF triples presented here are intended as suggestions that can be exported or uploaded to the graph accordingly. <br>
 <strong><em>dbo:starring</em></strong> <br>
@@ -174,7 +174,7 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
 </details>
 
 <details>
-  <summary style="color:purple"><strong>New Category: Theme</strong> (click to expand)</summary>
+  <summary style="color:purple"><strong>New Category: Theme</strong></summary>
 
   We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
   <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
@@ -234,19 +234,19 @@ And 0 results, so we created new triples:
 <img src="https://imgur.com/hID8raA" alt="SPARQL Query Theme" width="600"/> 
 
 <details>
-    <summary>Subsection 2.1 (click to expand)</summary>
+    <summary>Subsection 2.1</summary>
     Contenuto della sottosezione 2.1.
   </details>
 
   <details>
-    <summary>Subsection 2.2 (click to expand)</summary>
+    <summary>Subsection 2.2</summary>
     Contenuto della sottosezione 2.2.
   </details>
 
 </details>
 
 <details>
-  <summary style="color:purple"><strong>New categories: Genre, Composers & Performers</strong> (click to expand)</summary>
+  <summary style="color:purple"><strong>New categories: Genre, Composers & Performers</strong></summary>
 <ol>
 1)	We asked both <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> for information about the Bridgerton soundtrack, including its music genre, composer, and performers </ol>
 <img>
@@ -267,7 +267,7 @@ And 0 results, so we created new triples:
 You may find in the following sub-sections all the 3 procedures, respectively for genre (classical), composer and performers.
 
 <details>
-    <summary>Soundtrack genre (click to expand)</summary>
+    <summary>Soundtrack genre</summary>
 We asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. <br>
   ChatGPT:
   <img>
@@ -281,7 +281,7 @@ Subsequently, we entered both generated triples into Yasgui:
   <img>
   </details>
  <details>
-    <summary>Soundtrack composer (click to expand)</summary>
+    <summary>Soundtrack composer</summary>
 For the soundtrack composer the same procedure was followed: we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT. The new triple is created in order to fill the gap concerning the soundtrack’s producer ‘Kris Bowers’.<br>
   ChatGPT:
   <img>
@@ -296,7 +296,7 @@ For the soundtrack composer the same procedure was followed: we asked both ChatG
   <img>
  </details>
   <details>
-    <summary>Soundtrack Performers (click to expand)</summary>
+    <summary>Soundtrack Performers</summary>
     The same procedure was adopted for what concerns the performers ‘Vitamin String Qartet’. <br>
     ChatGPT:
     <img>
