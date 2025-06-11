@@ -199,6 +199,7 @@ This format was right, but we needed to add missing prefixes. <br>
 We added:<strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction } and the prefix, giving the LLM this example in order to understand how to use the keyword OPTIONAL.  <br>
 Optional matching provides this facility: if the optional part does not match, it creates no bindings but does not eliminate the solution.
 <img src="https://i.imgur.com/vLMojfG.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://i.imgur.com/YJGNju9.png" alt="SPARQL Query Theme" width="600"/> 
 Both queries gave 0 results, so we created a new triple in turtle giving the LLMs an example of how to use the keyword CONSTRUCT. <br>
 <img src="https://i.imgur.com/qK9z3gE.png" alt="SPARQL Query Theme" width="600"/>
 We obtained this results:<br>
@@ -213,6 +214,7 @@ ChatGPT:
 <img src="https://i.imgur.com/APUnun6.png" alt="SPARQL Query Theme" width="600"/>
 Gemini
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://i.imgur.com/CyYxSx4.png" alt="SPARQL Query Theme" width="600"/>
       </details>
 
  <details>
@@ -222,11 +224,13 @@ Following the examples of this query, we analysed “emotional struggles” in t
 ChatGPT:
 <img src="https://i.imgur.com/w6fk2LW.png" alt="SPARQL Query Theme" width="600"/>
 Gemini:
-<img src="https://i.imgur.com/vq2e4zY.png" alt="SPARQL Query Theme" width="600"/> 
-These queries gave 0 results, so we created a new triple. 
+<img src="https://i.imgur.com/vq2e4zY.png" alt="SPARQL Query Theme" width="600"/>
+These queries gave 0 results:
+<img src="https://i.imgur.com/FLBrYQl.png" alt="SPARQL Query Theme" width="600"/>
+So we created a new triple. 
 <img src="https://i.imgur.com/tRhdPOl.png" alt="SPARQL Query Theme" width="600"/>
 ChatGPT:
-<img src="https://i.imgur.com/SoKme4B.png" alt="SPARQL Query Theme" width="600"/> 
+<img src="https://i.imgur.com/1EVWg14.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
@@ -241,11 +245,15 @@ We trained GEMINI to use UNION giving an example:
 Result:
 <img src="https://i.imgur.com/KaCbCnw.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/JdvXQZ0.png" alt="SPARQL Query Theme" width="600"/>
+<img src="https://i.imgur.com/BPs7Cnt.png" alt="SPARQL Query Theme" width="600"/> 
 We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
-And 0 results, so we created new triples: 
+And 0 results:
+<img src="https://i.imgur.com/BPs7Cnt.png" alt="SPARQL Query Theme" width="600"/>
+So we created new triples: 
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
+<img src="https://i.imgur.com/QQztP2O.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
 
 </details>
