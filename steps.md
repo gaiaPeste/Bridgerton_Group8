@@ -174,7 +174,7 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
 </details>
 
 <details>
-  <summary>Main Section 2 (click to expand)</summary>
+  <summary style="color:purple"><strong>New Category: Theme</strong> (click to expand)</summary>
 
   Contenuto principale 2 qui.
 
@@ -191,7 +191,7 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
 </details>
 
 <details>
-  <summary>Main Section 3 (click to expand)</summary>
+  <summary style="color:purple"><strong>Main Section 3</strong> (click to expand)</summary>
 
   Contenuto principale 3 qui.
 
