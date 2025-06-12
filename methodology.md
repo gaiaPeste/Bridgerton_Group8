@@ -81,7 +81,7 @@ Our goal was to model and assess whether certain <strong>concepts</strong> (e.g.
 <br> 
 After having identified the gap, we studied the <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a> to identify how concepts (classes and properties) like <em>themes, subjects</em>, and <em>categories</em> are currently modeled to build queries.<br>
 Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGP</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
-After having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting the DBpedia resource for <em>Bridgerton</em>. 
+After having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting <a href="https://dbpedia.org/resource/Bridgerton" target="_blank" rel="noopener noreferrer"><em>dbr:Bridgerton</em></a>. 
 In doing so, we applied multiple SPARQL keywords to extract or validate thematic information:
 <ul>
 •	<strong>FILTER + REGEX</strong> to detect the presence of specific keywords in abstracts</ul>
