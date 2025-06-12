@@ -135,7 +135,7 @@ While ChatGPT created a final response including both new and original resources
 <strong><em>dbp:caption</em></strong> <br>
 We followed the same procedure for <em>dbp:caption</em>. <br>
     ChatGPT:
-<img src="https://i.imgur.com/iukaHfz.png" alt="SPARQL Query Caption" width="600"/>
+<img src="https://i.imgur.com/D5wb6IJ.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/abkzRNL.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/III8HHS.png" alt="SPARQL Query Caption" width="600"/>
 <img src="https://i.imgur.com/nmMGgp4.png" alt="SPARQL Query Caption" width="600"/>
@@ -188,7 +188,7 @@ Looking at the list provided by ChatGPT we decided to investigate more in depth 
 
  <details>
     <summary>Querying DBpedia:"Personal Desire"</summary>
-So, we asked the LLMs to create queries for DBpedia to check if the theme was explored in the KG.<br>
+So, we asked the LLMs to create queries for <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a> to check if the theme was explored in the KG.<br>
 ChatGPT:
 <img src="https://i.imgur.com/HbQXk5A.png" alt="SPARQL Query Theme" width="600"/>
 Gemini:
@@ -196,7 +196,7 @@ Gemini:
 So, we provided the example given by ChatGPT to show the format we wanted to have. 
 <img src="https://i.imgur.com/p7hIyiJ.png" alt="SPARQL Query Theme" width="600"/>
 This format was right, but we needed to add missing prefixes. <br>
-We added:<strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction } and the prefix, giving the LLM this example in order to understand how to use the keyword OPTIONAL.  <br>
+We added: <strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction } and the prefix, giving the LLM this example in order to understand how to use the keyword OPTIONAL.  <br>
 Optional matching provides this facility: if the optional part does not match, it creates no bindings but does not eliminate the solution.
 <img src="https://i.imgur.com/vLMojfG.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/YJGNju9.png" alt="SPARQL Query Theme" width="600"/> 
@@ -241,7 +241,7 @@ Gemini:
 We continued to explore the theme of taboos: 
 <img src="https://i.imgur.com/khL97eH.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/aulLXkN.png" alt="SPARQL Query Theme" width="600"/>
-We trained GEMINI to use UNION giving an example: 
+We trained Gemini to use <strong>UNION</strong> giving an example: 
 <img src="https://i.imgur.com/RUo7NOv.png" alt="SPARQL Query Theme" width="600"/>
 Result:
 <img src="https://i.imgur.com/KaCbCnw.png" alt="SPARQL Query Theme" width="600"/>
@@ -279,7 +279,8 @@ Gemini:
   <ol>
 4)	Next, starting from one of the identified ‘gaps,’ we asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT</ol>
   <ol>
-5)	Finally, we entered both new triples into Yasgui.</ol>
+5)	Finally, we entered both new triples into <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>.
+</ol> <br>
 You may find in the following sub-sections all the 3 procedures, respectively for genre (classical), composer and performers.
 
   <details>
@@ -290,7 +291,7 @@ We asked both ChatGPT and Gemini to generate new SPARQL triples using CONSTRUCT.
   Gemini:
   <img src="https://i.imgur.com/AVc3zZe.png" alt="SPARQL Query Soundtrack" width="600"/> 
   <img src="https://i.imgur.com/F3K4W2w.png" alt="SPARQL Query Soundtrack" width="600"/> 
-Subsequently, we entered both generated triples into Yasgui:
+Subsequently, we entered both generated triples into <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>:
   <img src="https://i.imgur.com/paRDZQz.png" alt="SPARQL Query Soundtrack" width="600"/> 
   <img src="https://i.imgur.com/mCocggB.png" alt="SPARQL Query Soundtrack" width="600"/> 
   <img src="https://i.imgur.com/AZyx17t.png" alt="SPARQL Query Soundtrack" width="600"/> 
