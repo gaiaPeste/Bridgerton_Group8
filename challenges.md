@@ -26,18 +26,19 @@ and structured format made it easier to detect inconsistencies and missing infor
 
 <strong>REALIZATION OF THE WEBSITE ON GITHUB</strong>
 
-During the development of our website ([link]), we encountered a challenge related to Markdown (MD) rendering on GitHub Pages. While GitHub is expected to support Markdown, we found that only the homepage (index.md) was properly interpreted as Markdown. All other sections required HTML, sometimes combined with Markdown, to render correctly.
+During the development of <a href="https://gaiapeste.github.io/Bridgerton_Group8/" target="_blank" rel="noopener noreferrer">our website</a>
+, we encountered a challenge related to Markdown (MD) rendering on <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a> Pages. While <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a> is expected to support Markdown, we found that only the homepage (index.md) was properly interpreted as Markdown. All other sections required HTML, sometimes combined with Markdown, to render correctly.
 
 To address this issue, we converted most elements from Markdown to HTML. This process required more steps than using Markdown alone, which is generally simpler and more efficient. Links and images posed particular challenges:
 <ul>
   - Links in HTML, such as <br>
-  <a href="https://example.com" target="_blank" rel="noopener noreferrer">Exmaple</a>, <br> required more effort compared to Markdown links which are sinmpler to write even manually: <br>[Example.com](https://example.com);
+  "a href="https://example.com" target="_blank" rel="noopener noreferrer">Example</a", <br> required more effort compared to Markdown links which are sinmpler to write even manually: <br>[Example.com](https://example.com);
   - The same applies to images: the HTML version <br>
-  <img src="https://www.example.com/image.png" alt="Image description" width="600"/>, <br> 
+  "img src="https://www.example.com/image.png" alt="Image description" width="600"/", <br> 
   is more verbose than the MD equivalent: <br>
   ![Image description](https://www.example.com/image.png).
 </ul>
-Moreover, we also had to adapt the entire syntactic structure—such as <strong>bold</strong>, <em>italics</em>, and line breaks—to fit HTML formatting instead of Markdown. In fact, the files used to build the different sections did not recognize asterisks for bold or italics and line breaks had to be explicitly added using the "<br>" tag. <br>
+Moreover, we also had to adapt the entire syntactic structure—such as <strong>bold</strong>, <em>italics</em>, and line breaks—to fit HTML formatting instead of Markdown. In fact, the files used to build the different sections did not recognize asterisks for bold or italics and line breaks had to be explicitly added using the "br" tag. <br>
 
 <strong>CHATGPT VS GEMINI</strong> 
 <br>
