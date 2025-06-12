@@ -32,7 +32,8 @@ During the development of <a href="https://gaiapeste.github.io/Bridgerton_Group8
 To address this issue, we converted most elements from Markdown to HTML. This process required more steps than using Markdown alone, which is generally simpler and more efficient. Links and images posed particular challenges:
 <ul>
   - Links in HTML, such as <br>
-  "a href="https://example.com" target="_blank" rel="noopener noreferrer">Example</a", <br> required more effort compared to Markdown links which are sinmpler to write even manually: <br>[Example.com](https://example.com);
+  "a href="https://example.com" target="_blank" rel="noopener noreferrer">Example</a", <br> required more effort compared to Markdown links which are sinmpler to write even manually: <br>[Example.com](https://example.com); </ul>
+  <ul>
   - The same applies to images: the HTML version <br>
   "img src="https://www.example.com/image.png" alt="Image description" width="600"/", <br> 
   is more verbose than the MD equivalent: <br>
