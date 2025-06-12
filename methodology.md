@@ -65,7 +65,7 @@ This knowledge graph classifies “Bridgerton” as an entity of type: Televisio
 
 The two LLMs gave the same result, but Gemini added and ORDER BY to range the results in alphabetical order.
 
-After having explored the vocabulary related to our knowledge graph, we decided to have a look at it and we noticed instantly that some information was <strong>wrong</strong> and needed to be <strong>modified</strong> that some classes and properties needed to be <strong>integrated</strong> and that some information could be <strong>added integrally</strong>. So we developed a general methodology to address all this instances. 
+After having explored the vocabulary related to our knowledge graph,<a href="https://dbpedia.org/resource/Bridgerton" target="_blank" rel="noopener noreferrer"><em>dbr:Bridgerton</em></a>, we decided to examine it more closely and we noticed instantly that some information was <strong>wrong</strong> and needed to be <strong>modified</strong> that some classes and properties needed to be <strong>integrated</strong> and that some information could be <strong>added integrally</strong>. So we developed a general methodology to address all this instances. 
 <br><br>
 
 
