@@ -35,7 +35,7 @@ we executed the query and we obtained a series of results, between which we indi
 <img src="https://i.imgur.com/uZhTrn5.png" alt="Yasgui" width="600"/> 
 
 This knowledge graph classifies “Bridgerton” as an entity of type: Television show. From there we decided to execute other two very general queries to individuate the classes and properties already related to the <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">dbr:Bridgerton</a>
-, so to have a general idea of what we were working 
+, so to have a general idea of what we were working with.
 
 <p><strong>CLASSES:</strong></p> 
 <p><strong> ChatGPT:</strong></p>
@@ -76,11 +76,11 @@ After having explored the vocabulary related to our knowledge graph, we decided 
 <details>
   <summary>🧪 <strong>2. General Methodology</strong></summary>
   <br><br>
-  In this project, we explored and enriched a <strong>knowledge graph (KG)</strong> about the TV series Bridgerton by combining <strong>SPARQL querying techniques</strong> with the assistance of <strong>large language models (LLMs)</strong>, specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>
+  In this project, we explored and enriched a <strong>knowledge graph (KG)</strong> about the TV series Bridgerton by combining <strong>SPARQL querying techniques</strong> with the assistance of <strong>large language models (LLMs)</strong>, specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>. <br>
 Our goal was to model and assess whether certain <strong>concepts</strong> (e.g., <em>general information and knowledge about themes and the soundtrack</em>) are represented in the graph, and where necessary, propose new triples.
 <br> 
-After having identified the gap, we studied the <strong>DBpedia ontology</strong> to identify how concepts like <em>themes, subjects</em>, and <em>categories</em> are currently modeled. We explored the ontologies and identified the concepts (classes and properties) to build queries.<br>
-Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
+After having identified the gap, we studied the <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a> to identify how concepts (classes and properties) like <em>themes, subjects</em>, and <em>categories</em> are currently modeled to build queries.<br>
+Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGP</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
 After having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting the DBpedia resource for <em>Bridgerton</em>. 
 In doing so, we applied multiple SPARQL keywords to extract or validate thematic information:
 <ul>
@@ -106,8 +106,8 @@ We used three prompting strategies:
 
 <br>
 
-  We critically evaluated LLM outputs by checking <strong>query correctness</strong>  using a SPARQL endpoint (e.g. <a href="https://dbpedia.org/sparql" target="_blank" rel="noopener noreferrer">DBpedia SPARQL interface</a>, <a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>
-). We noticed that both LLMs had strong understanding of <strong> RDF, RDFS, OWL, SPARQL</strong>, and semantic modeling practices. They are familiar with <strong>Linked Data vocabularies</strong> (e.g., DBpedia, FOAF, etc.) and understand how to <strong>model new triples</strong> or propose schema extensions using correct RDF syntax. <br>
+  We critically evaluated LLM outputs by checking <strong>query correctness</strong>  using a SPARQL endpoint (e.g.<a href="https://yasgui.org/" target="_blank" rel="noopener noreferrer">Yasgui</a>). <br>
+  We noticed that both LLMs had strong understanding of <strong> RDF, RDFS, OWL, SPARQL</strong>, and semantic modeling practices. They are familiar with <strong>Linked Data vocabularies</strong> (e.g., DBpedia, FOAF, etc.) and understand how to <strong>model new triples</strong> or propose schema extensions using correct RDF syntax. <br>
 When given examples they corrected and trained themselves to give the following tasks in the already corrected form. The same thing happened when they were asked to think step by step. While at first, they gave more concise and direct answers, after asking them to do chain-of-thought they repeated this process also in the following tasks. <br>
 They both remembered and chained context, which helps when we asked: "Now create a triple for 'taboos' like you did for 'emotional struggles'". They can track previous ontology examples and maintain vocabulary consistency. <br>
 This project demonstrated how SPARQL and LLMs can work in synergy to enrich and interrogate a cultural knowledge graph. From querying existing data to proposing new semantic connections, we applied best practices in <strong>prompt engineering, ontology alignment</strong>, and <strong>RDF modeling</strong>, all while evaluating the reliability and expressiveness of different language models.
@@ -157,7 +157,7 @@ o	Quickly finding standard prefixes (e.g., dbo, rdfs, foaf) to ensure correct na
 o	Ensuring vocabulary alignment and avoiding errors in prefix declaration.</ul>
 </ol> 
 <ol>
-4.	<strong><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong>
+4.	<strong><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong> <br>
 GitHub is a web-based platform for version control and collaboration. It lets developers store and manage code using Git, track changes, and work together on software projects..
 /ol>
 <br><br>
