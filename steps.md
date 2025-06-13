@@ -184,11 +184,11 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
   <img src="https://i.imgur.com/koegva6.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/9cSCHj3.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6q2OJP9.png" alt="SPARQL Query Theme" width="600"/>
-Looking at the list provided by ChatGPT we decided to investigate more in depth 3 themes: personal desire, emotional struggle and taboos. <br>
+Looking at the list provided by ChatGPT we decided to investigate 3 themes more in depth: personal desire, emotional struggle and taboos. <br>
 
  <details>
     <summary>Querying DBpedia:"Personal Desire"</summary>
-So, we asked the LLMs to create queries for <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a> in order to check if the themes were explored in the KG. These were the results provided by the LLMs. <br>
+At first, we asked the LLMs to create queries for <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a> in order to check if the themes were explored in the KG. These were the results provided by the LLMs. <br>
 ChatGPT:
 <img src="https://i.imgur.com/HbQXk5A.png" alt="SPARQL Query Theme" width="600"/>
 Gemini:
