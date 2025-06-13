@@ -205,7 +205,7 @@ Once having entered the queries on Yasgui, both queries produced 0 results, so w
 We obtained these results:<br>
 ChatGPT:
 <img src="https://i.imgur.com/Ey75WZJ.png" alt="SPARQL Query Theme" width="600"/>
-We asked the LLMs to think step by step, in order to show the process of creation of the triple. Shown below the answer produced by <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> <br>
+We asked the LLMs to think step by step, in order to show the process of creation of the triple. Shown below the answer produced by ChatGPT
 ChatGPT:
 <img src="https://i.imgur.com/xjuhJGx.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/HuGE6Mv.png" alt="SPARQL Query Theme" width="600"/>
