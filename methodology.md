@@ -158,7 +158,7 @@ o	Ensuring vocabulary alignment and avoiding errors in prefix declaration.</ul>
 </ol> 
 <ol>
 4.	<strong><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></strong> <br>
-GitHub is a web-based platform for version control and collaboration. It lets developers store and manage code using Git, track changes, and work together on software projects..
+GitHub is a web-based platform for version control and collaboration. It lets developers store and manage code using Git, track changes, and work together on software projects.
 </ol>
 <br><br>
 
