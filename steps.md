@@ -193,7 +193,7 @@ ChatGPT:
 <img src="https://i.imgur.com/HbQXk5A.png" alt="SPARQL Query Theme" width="600"/>
 Gemini:
 <img src="https://i.imgur.com/qMzdujl.png" alt="SPARQL Query Theme" width="600"/>
-Gemini produced a query that was not syntactically correct and suitable for querying the KG. So, we provided Gemini with the query produced by ChatGPT as an example to show the right format we required. 
+Gemini produced a query that was not syntactically correct and suitable for querying the KG. So, we provided Gemini the query produced by ChatGPT as an example to show the right format we required. 
 <img src="https://i.imgur.com/p7hIyiJ.png" alt="SPARQL Query Theme" width="600"/>
 This format was correct, but we needed to add missing prefixes. <br>
 Furthermore, we asked the LLMs to add: <strong>OPTIONAL</strong>, providing them this example in order to show how to use the keyword and to train them for the following tasks.  <br>
