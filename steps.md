@@ -177,7 +177,7 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
  <summary style="color:purple"><strong> Themes: Personal Desire, Emotional Struggle & Taboos</strong></summary>
 
  <strong>Exploring Main Themes with LLMs</strong> <br>
- We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to ask about the main themes in the series.
+ We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to provide a list of the main themes treated in the TV series.
   <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://imgur.com/PL60T92.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6En73sh.png" alt="SPARQL Query Theme" width="600"/>
@@ -188,31 +188,31 @@ Looking at the list provided by ChatGPT we decided to investigate more in depth 
 
  <details>
     <summary>Querying DBpedia:"Personal Desire"</summary>
-So, we asked the LLMs to create queries for <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a> to check if the theme was explored in the KG.<br>
+So, we asked the LLMs to create queries for <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a> in order to check if the themes were explored in the KG. These were the results provided by the LLMs. <br>
 ChatGPT:
 <img src="https://i.imgur.com/HbQXk5A.png" alt="SPARQL Query Theme" width="600"/>
 Gemini:
 <img src="https://i.imgur.com/qMzdujl.png" alt="SPARQL Query Theme" width="600"/>
-So, we provided the example given by ChatGPT to show the format we wanted to have. 
+Gemini produced a query that was not formally corrected and suitable for querying the KG. So, we provided Gemini with the query produced by ChatGPT as an example to show the right format we required. 
 <img src="https://i.imgur.com/p7hIyiJ.png" alt="SPARQL Query Theme" width="600"/>
-This format was right, but we needed to add missing prefixes. <br>
-We added: <strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction } and the prefix, giving the LLM this example in order to understand how to use the keyword OPTIONAL.  <br>
+This format was correct, but we needed to add missing prefixes. <br>
+Furthermore, we added: <strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction }, giving the LLMs this example in order to show them how to use the keyword OPTIONAL and to train them for the following tasks.  <br>
 Optional matching provides this facility: if the optional part does not match, it creates no bindings but does not eliminate the solution.
 <img src="https://i.imgur.com/vLMojfG.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/YJGNju9.png" alt="SPARQL Query Theme" width="600"/> 
-Both queries gave 0 results, so we created a new triple in turtle giving the LLMs an example of how to use the keyword CONSTRUCT. <br>
+Once having entered the queries on Yasgui, both queries produced 0 results, so we created a new triple in Turtle assisted by the LLMs, through the use of an example about the keyword CONSTRUCT. <br>
 <img src="https://i.imgur.com/qK9z3gE.png" alt="SPARQL Query Theme" width="600"/>
 We obtained these results:<br>
 ChatGPT:
 <img src="https://i.imgur.com/Ey75WZJ.png" alt="SPARQL Query Theme" width="600"/>
-We asked the LLM to think step by step, in order to show the process of creation of the triple. <br>
+We asked the LLMs to think step by step, in order to show the process of creation of the triple. Shown below the answer produced by <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> <br>
 ChatGPT:
 <img src="https://i.imgur.com/xjuhJGx.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/HuGE6Mv.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/EpMdrK1.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/GcIQ9VD.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/APUnun6.png" alt="SPARQL Query Theme" width="600"/>
-Gemini
+The query produced by Gemini:
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/CyYxSx4.png" alt="SPARQL Query Theme" width="600"/>
       </details>
