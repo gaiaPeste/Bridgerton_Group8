@@ -196,7 +196,7 @@ Gemini:
 Gemini produced a query that was not syntactically correct and suitable for querying the KG. So, we provided Gemini with the query produced by ChatGPT as an example to show the right format we required. 
 <img src="https://i.imgur.com/p7hIyiJ.png" alt="SPARQL Query Theme" width="600"/>
 This format was correct, but we needed to add missing prefixes. <br>
-Furthermore, we added: <strong>OPTIONAL</strong> { ?label a-cd:depiction ?depiction }, giving the LLMs this example in order to show them how to use the keyword OPTIONAL and to train them for the following tasks.  <br>
+Furthermore, we asked the LLMs to add: <strong>OPTIONAL</strong>, providing them this example in order to show how to use the keyword and to train them for the following tasks.  <br>
 Optional matching provides this facility: if the optional part does not match, it creates no bindings but does not eliminate the solution.
 <img src="https://i.imgur.com/vLMojfG.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/YJGNju9.png" alt="SPARQL Query Theme" width="600"/> 
