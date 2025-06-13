@@ -202,7 +202,7 @@ Optional matching provides this facility: if the optional part does not match, i
 <img src="https://i.imgur.com/YJGNju9.png" alt="SPARQL Query Theme" width="600"/> 
 Both queries gave 0 results, so we created a new triple in turtle giving the LLMs an example of how to use the keyword CONSTRUCT. <br>
 <img src="https://i.imgur.com/qK9z3gE.png" alt="SPARQL Query Theme" width="600"/>
-We obtained this results:<br>
+We obtained these results:<br>
 ChatGPT:
 <img src="https://i.imgur.com/Ey75WZJ.png" alt="SPARQL Query Theme" width="600"/>
 We asked the LLM to think step by step, in order to show the process of creation of the triple. <br>
