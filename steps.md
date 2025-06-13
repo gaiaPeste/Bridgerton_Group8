@@ -220,7 +220,7 @@ Then we put the CONSTRUCT query on Yasgui, and this was the output:
 
  <details>
     <summary>Querying DBpedia: "Emotional Struggles"</summary>
-Following the examples of this query, we analysed “emotional struggles” in the KG. The LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
+Following the example of the preceeding query, we analysed the theme “emotional struggles” in the KG. Both the LLMs showed to having been trained about the format and about the contraint of showing the process step by step. 
 <img src="https://i.imgur.com/kxBycc6.png" alt="SPARQL Query Theme" width="600"/> 
 ChatGPT:
 <img src="https://i.imgur.com/w6fk2LW.png" alt="SPARQL Query Theme" width="600"/>
@@ -228,18 +228,19 @@ Gemini:
 <img src="https://i.imgur.com/vq2e4zY.png" alt="SPARQL Query Theme" width="600"/>
 These queries gave 0 results:
 <img src="https://i.imgur.com/FLBrYQl.png" alt="SPARQL Query Theme" width="600"/>
-So we created a new triple. 
+So we created a new CONSTRUCT triple. 
 <img src="https://i.imgur.com/tRhdPOl.png" alt="SPARQL Query Theme" width="600"/>
 ChatGPT:
 <img src="https://i.imgur.com/1EVWg14.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
 <img src="https://i.imgur.com/gGjgrYg.png" alt="SPARQL Query Theme" width="600"/> 
+As shown, the output on Yasgui: 
 <img src="https://i.imgur.com/MvGGqP5.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
 
   <details>
     <summary>Querying DBpedia: "Taboos"</summary>
-We continued to explore the theme of taboos: 
+We continued to explore the theme of "taboos": 
 <img src="https://i.imgur.com/khL97eH.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/aulLXkN.png" alt="SPARQL Query Theme" width="600"/>
 We trained Gemini to use <strong>UNION</strong> giving an example: 
@@ -248,14 +249,15 @@ Result:
 <img src="https://i.imgur.com/KaCbCnw.png" alt="SPARQL Query Theme" width="600"/>
 <img src="https://i.imgur.com/JdvXQZ0.png" alt="SPARQL Query Theme" width="600"/>
 We didn’t have to adjust PREFIX or format anymore. The LLM trained and adjusted by itself. 
-And 0 results:
+Both the queries produced 0 results:
 <img src="https://i.imgur.com/BPs7Cnt.png" alt="SPARQL Query Theme" width="600"/>
-So we instructed the LLMs to create new triples based on the previous examples. These were the results. <br>
+So we instructed the LLMs to create a new triple, based on the previous examples. These were the results: <br>
 ChatGPT:
 <img src="https://i.imgur.com/aWf2GUf.png" alt="SPARQL Query Theme" width="600"/> 
 Gemini:
 <img src="https://i.imgur.com/crMoDb5.png" alt="SPARQL Query Theme" width="600"/> 
 <img src="https://i.imgur.com/uZHyqm7.png" alt="SPARQL Query Theme" width="600"/> 
+And the final output on Yasgui: 
 <img src="https://i.imgur.com/QQztP2O.png" alt="SPARQL Query Theme" width="600"/> 
   </details>
 
