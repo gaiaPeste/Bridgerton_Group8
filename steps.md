@@ -214,6 +214,7 @@ ChatGPT:
 <img src="https://i.imgur.com/APUnun6.png" alt="SPARQL Query Theme" width="600"/>
 The query produced by Gemini:
 <img src="https://i.imgur.com/UQ7CieD.png" alt="SPARQL Query Theme" width="600"/>
+Then we put the CONSTRUCT query on Yasgui, and this was the output: 
 <img src="https://i.imgur.com/CyYxSx4.png" alt="SPARQL Query Theme" width="600"/>
       </details>
 
