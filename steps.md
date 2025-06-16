@@ -177,7 +177,8 @@ In this case GEMINI needed more directions than ChatGPT to realize an adequate q
  <summary style="color:purple"><strong> Themes: Personal Desire, Emotional Struggle & Taboos</strong></summary>
 
  <strong>Exploring Main Themes with LLMs</strong> <br>
- We used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to provide a list of the main themes treated in the TV series.
+ After having analyzed this initial set of information and having subsequently refined and enriched the knowledge graph, we proceeded to shift our attention towards the thematic dimension of the series, aiming to identify, categorize, and critically examine the representation of some central themes in the KG.
+ As a first step, we used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a> to provide a list of the main themes treated in the TV series.
   <img src="https://i.imgur.com/DI6IddA.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://imgur.com/PL60T92.png" alt="SPARQL Query Theme" width="600"/>
   <img src="https://i.imgur.com/6En73sh.png" alt="SPARQL Query Theme" width="600"/>
