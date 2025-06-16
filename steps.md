@@ -229,7 +229,7 @@ Gemini:
 <img src="https://i.imgur.com/vq2e4zY.png" alt="SPARQL Query Theme" width="600"/>
 These queries gave 0 results:
 <img src="https://i.imgur.com/FLBrYQl.png" alt="SPARQL Query Theme" width="600"/>
-So we created a new CONSTRUCT triple. 
+So we created a new triple. 
 <img src="https://i.imgur.com/tRhdPOl.png" alt="SPARQL Query Theme" width="600"/>
 ChatGPT:
 <img src="https://i.imgur.com/1EVWg14.png" alt="SPARQL Query Theme" width="600"/> 
