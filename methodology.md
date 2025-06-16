@@ -76,12 +76,8 @@ After having explored the vocabulary related to our knowledge graph, <a href="ht
 <details>
   <summary>🧪 <strong>2. General Methodology</strong></summary>
   <br><br>
-  In this project, we explored and enriched a <strong>knowledge graph (KG)</strong> about the TV series Bridgerton by combining <strong>SPARQL querying techniques</strong> with the assistance of <strong>large language models (LLMs)</strong>, specifically <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a>. <br>
-Our goal was to model and assess whether certain <strong>concepts</strong> (e.g., <em>general information and knowledge about themes and the soundtrack</em>) were represented in the graph, and where necessary, propose new triples.
-<br> 
-After having identified the gap, we studied the <a href="https://wiki.dbpedia.org/services-resources/ontology">DBpedia Ontology</a> to identify how concepts (classes and properties) were currently modeled to build queries.<br>
-Then we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGP</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
-After having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting <a href="https://dbpedia.org/resource/Bridgerton" target="_blank" rel="noopener noreferrer"><em>dbr:Bridgerton</em></a>. 
+  After having identified the gaps, we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGP</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
+Subsequently, after having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting <a href="https://dbpedia.org/resource/Bridgerton" target="_blank" rel="noopener noreferrer"><em>dbr:Bridgerton</em></a> assisted by LLMs. 
 In doing so, we applied multiple SPARQL keywords to extract or validate thematic information:
 <ul>
 •	<strong>FILTER + REGEX</strong> to detect the presence of specific keywords in abstracts</ul>
