@@ -88,7 +88,7 @@ In doing so, we applied multiple SPARQL keywords to extract or validate informat
   <ul>
 • <strong>ORDER BY</strong> to sort output (used in debugging and display queries)</ul>
   <ul>
-•	<strong>UNION</strong>to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").</ul>
+•	<strong>UNION</strong> to combine multiple theme patterns in a single query (e.g., "desire" OR "struggle").</ul>
 
 <br>
 When existing links were missing, incorrect or needed to be amplified, we proposed new conceptual connections using RDF triples. We designed custom RDF triples using SPARQL <strong>CONSTRUCT</strong> queries to represent new knowledge. So we used <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGPT (Open AI)</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini (Google)</a> to generate these triples, model their structure, and validate whether the vocabulary aligned with <a href="https://www.dbpedia.org/" target="_blank" rel="noopener noreferrer">DBpedia</a>. We also explored how LLMs can help when formal vocabulary is lacking.
