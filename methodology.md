@@ -29,7 +29,7 @@ These were the results:
   <img src="https://i.imgur.com/gbjfinA.png" alt="SPARQL Query from Gemini" width="600"/> 
 
 Both LLMs gave us the same outcome, to which we added LIMIT 100 to have a reasonable outcome.Then
-we executed the query and we obtained a series of results, between which we individuated the knowledge graph we wanted to amplify (n. 30), traceable with the IRI <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">https://dbpedia.org/page/Bridgerton</a>.
+we executed the query and we obtained a series of results, between which we individuated the knowledge graph we decided to enlarge (n. 30), traceable with the IRI <a href="https://dbpedia.org/page/Bridgerton" target="_blank" rel="noopener noreferrer">https://dbpedia.org/page/Bridgerton</a>.
 
 <img src="https://i.imgur.com/DvKTVa6.png" alt="Yasgui" width="600"/> 
 <img src="https://i.imgur.com/uZhTrn5.png" alt="Yasgui" width="600"/> 
