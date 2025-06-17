@@ -78,7 +78,7 @@ After having explored the vocabulary related to our knowledge graph, <a href="ht
   <br><br>
   After having identified the gaps and having studied the DBpedia Ontology to identify how concepts (classes and properties) were currently modeled to build queries, we used the LLMs (<a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer">ChatGP</a> and <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a>) as information retrieval/question answering tools to find relevant knowledge to enrich the KG. <br>
 Subsequently, after having identified the areas that we wanted to explore more in depth, we wrote several <strong>SPARQL queries</strong> targeting <a href="https://dbpedia.org/resource/Bridgerton" target="_blank" rel="noopener noreferrer"><em>dbr:Bridgerton</em></a> assisted by the LLMs. 
-In doing so, we applied multiple SPARQL keywords to extract or validate thematic information:
+In doing so, we applied multiple SPARQL keywords to extract or validate information:
 <ul>
 •	<strong>FILTER + REGEX</strong> to detect the presence of specific keywords in abstracts</ul>
   <ul>
